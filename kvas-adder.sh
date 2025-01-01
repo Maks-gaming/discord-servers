@@ -57,15 +57,15 @@ select_cron_option() {
   
   case $cron_option in
     1)
-      cron_command="@reboot curl -sSL https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/kvas-adder.sh -l ${selected_ipset} | bash"
+      cron_command="@reboot curl -O https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/kvas-adder.sh && bash kvas-adder.sh -l ${selected_ipset} ; rm kvas-adder.sh"
       echo "Will run on reboot."
       ;;
     2)
-      cron_command="0 0 * * * curl -sSL https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/kvas-adder.sh -l ${selected_ipset} | bash"
+      cron_command="0 0 * * * curl -O https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/kvas-adder.sh && bash kvas-adder.sh -l ${selected_ipset} ; rm kvas-adder.sh"
       echo "Will run every day at 00:00."
       ;;
     3)
-      cron_command="0 0 * * * curl -sSL https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/kvas-adder.sh -l ${selected_ipset} | bash && @reboot curl -sSL https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/kvas-adder.sh -l ${selected_ipset} | bash"
+      cron_command="0 0 * * * curl -O https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/kvas-adder.sh && bash kvas-adder.sh -l ${selected_ipset} ; rm kvas-adder.sh && @reboot curl -O https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/kvas-adder.sh && bash kvas-adder.sh -l ${selected_ipset} ; rm kvas-adder.sh"
       echo "Will run every day at 00:00 and on reboot."
       ;;
     4)
