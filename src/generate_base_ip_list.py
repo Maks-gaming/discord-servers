@@ -13,7 +13,7 @@ async def get_a_records(domain, retries=3, delay=1):
     for attempt in range(retries):
         try:
             answer = await resolver.resolve(domain, 'A')
-            return domain, " ".join([rdata.to_text() for rdata in answer])
+            return domain, " ".join([rdata.to_text() for rdata in answer]).split()[0]
         except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN) as e:
             return domain, f"Error: {str(e)}"
         except Exception as e:
@@ -25,8 +25,8 @@ async def get_a_records(domain, retries=3, delay=1):
 async def process_domain(domain, results):
     domain, a_records = await get_a_records(domain)
     if a_records and "Error" not in a_records:
-        results.append({"hostname": domain, "ip": a_records.split()[0]})
-        print(f"\r{domain} -> {a_records}", end="")
+        results.append({"hostname": domain, "ip": a_records})
+        print(f"{domain} -> {a_records}")
 
 async def main():
     tasks = []
