@@ -1,42 +1,52 @@
 import sys
-import dns.resolver
-from concurrent.futures import ThreadPoolExecutor
-import threading
+import asyncio
+import aiofiles
+import dns.asyncresolver
 
-
-if not len(sys.argv) > 1:
+if len(sys.argv) <= 1:
     print("Please provide a region as an argument.")
     sys.exit(1)
-    
+
 region = sys.argv[1]
+print(f"Generating IP list for {region}...")
 
-print(f"Generating ip list for {region}...")
+resolver = dns.asyncresolver.Resolver()
+resolver.nameservers = ['8.8.8.8', '8.8.4.4']
 
-def get_a_records(domain):
+async def get_a_records(domain):
     try:
-        resolver = dns.resolver.Resolver()
-        resolver.nameservers = ['8.8.8.8', '8.8.4.4']
-        answer = resolver.resolve(domain, 'A')
+        answer = await resolver.resolve(domain, 'A')
         return domain, " ".join([rdata.to_text() for rdata in answer])
     except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN) as e:
         return domain, f"Error: {str(e)}"
     except Exception as e:
         return domain, f"Error: {str(e)}"
 
-output_lock = threading.Lock()  # For synchronizing output
-
-def process_domain(region, id):
+async def process_domain(region, id, results):
     domain = f"{region}{id}.discord.gg"
-    domain, a_records = get_a_records(domain)
-    
-    with output_lock:  # Locking output for each thread
-        if a_records and "Error" not in a_records:
-            print(f"\r{domain} -> {a_records}")
-            
-            # Write the result immediately to the file
-            with open('ip_list_new.txt', 'a') as f:
-                f.write(f"{a_records}\n")
+    domain, a_records = await get_a_records(domain)
+    if a_records and "Error" not in a_records:
+        results.append(a_records)
+        print(f"\r{domain} -> {a_records}", end="")
 
-with ThreadPoolExecutor(max_workers=100) as executor:
+async def main():
+    tasks = []
+    results = []
+    max_concurrent_tasks = 1000 # Depends on your system
+    semaphore = asyncio.Semaphore(max_concurrent_tasks)
+
+    async def limited_task(region, id):
+        async with semaphore:
+            await process_domain(region, id, results)
+
     for id in range(15001):  # Up to 15000 inclusive
-        executor.submit(process_domain, region, id)
+        tasks.append(limited_task(region, id))
+
+    await asyncio.gather(*tasks)
+
+    # Write all results to the file at once
+    async with aiofiles.open('ip_list_new.txt', 'w') as f:
+        await f.write("\n".join(results) + "\n")
+
+if __name__ == "__main__":
+    asyncio.run(main())
