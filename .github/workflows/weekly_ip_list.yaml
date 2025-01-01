@@ -1,4 +1,4 @@
-name: 🔁 Update Voice IP lists
+name: 🔁 Update IP lists
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update_voice_lists:
+  update_lists:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,6 +23,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install dnspython
           pip install aiofiles
+
+      - name: ↗️ Resolve base domains
+        run: |
+          python ./src/generate_base_ip_list.py
 
       - name: 🌐 Resolve atlanta
         run: |
@@ -164,11 +168,9 @@ jobs:
         run: |
           python ./src/generate_voice_ip_list.py oregon
 
-      - name: ↗️ Update ip_list.txt
+      - name: 📁 Generating configurations
         run: |
-          cp ./amnezia-voice-list.new.txt ./amnezia-voice-list.txt
-          cp ./voice-ip-list.new.txt ./voice-ip-list.txt
-          cp ./voice-domain-list.new.txt ./voice-domain-list.txt
+          python ./src/generate_singlefiles.py
 
       - name: 💫 Commit the changes
         run: |
