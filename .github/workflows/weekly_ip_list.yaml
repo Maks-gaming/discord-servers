@@ -166,13 +166,14 @@ jobs:
 
       - name: ↗️ Update ip_list.txt
         run: |
-          cp ./ip_list_new.txt ./ip_list.txt
-          rm ./ip_list_new.txt
+          cp ./amnezia-voice-list.new.txt ./amnezia-voice-list.txt
+          cp ./voice-ip-list.new.txt ./voice-ip-list.txt
+          cp ./voice-domain-list.new.txt ./voice-domain-list.txt
 
       - name: 💫 Commit the changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add ./ip_list.txt
-          git commit -m "Update IP list"
+          git add -A
+          git commit -m "Update voice lists"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
