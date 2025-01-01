@@ -1,25 +1,52 @@
 #!/bin/bash
 
+# Function to parse the arguments
+parse_args() {
+  while getopts ":l:" opt; do
+    case $opt in
+      l)
+        required_ipset="$OPTARG"
+        echo "Required IP set: $required_ipset"
+        ;;
+      \?)
+        echo "Usage: $0 [-l ipset_name]" >&2
+        exit 1
+        ;;
+    esac
+  done
+}
+
 # Function to select the IP set
 select_ipset() {
-  echo "Fetching list of available ipsets..."
-  ipsets=$(ipset list -n | grep -vE '(^_NDM|^_UPNP)')
-  ipsets_array=($ipsets)
+  if [ -z "$required_ipset" ]; then
+    echo "Fetching list of available ipsets..."
+    ipsets=$(ipset list -n | grep -vE '(^_NDM|^_UPNP)')
+    ipsets_array=($ipsets)
 
-  echo "Please select a list by number:"
-  i=1
-  for ipset in "${ipsets_array[@]}"; do
-    echo "$i) $ipset"
-    ((i++))
-  done
+    echo "Please select a list by number:"
+    i=1
+    for ipset in "${ipsets_array[@]}"; do
+      echo "$i) $ipset"
+      ((i++))
+    done
 
-  read -p "Enter the number corresponding to the list: " ipset_index
-  selected_ipset="${ipsets_array[$ipset_index-1]}"
-  echo "You have selected: $selected_ipset"
+    read -p "Enter the number corresponding to the list: " ipset_index
+    selected_ipset="${ipsets_array[$ipset_index-1]}"
+    echo "You have selected: $selected_ipset"
+  else
+    selected_ipset="$required_ipset"
+    echo "Using the required IP set: $selected_ipset"
+  fi
 }
 
 # Function to select the cron job option
 select_cron_option() {
+  # Skip cron registration if the ipset is provided as an argument
+  if [ -n "$required_ipset" ]; then
+    echo "Skipping cron job setup as IP set is provided."
+    return
+  fi
+
   echo "Choose the cron job option:"
   echo "1) Execute on every reboot"
   echo "2) Execute every day at 00:00"
@@ -30,15 +57,15 @@ select_cron_option() {
   
   case $cron_option in
     1)
-      cron_command="@reboot /path/to/this/script"
+      cron_command="@reboot curl -sSL https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/kvas-adder.sh -l ${selected_ipset} | bash"
       echo "Will run on reboot."
       ;;
     2)
-      cron_command="0 0 * * * /path/to/this/script"
+      cron_command="0 0 * * * curl -sSL https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/kvas-adder.sh -l ${selected_ipset} | bash"
       echo "Will run every day at 00:00."
       ;;
     3)
-      cron_command="0 0 * * * /path/to/this/script && @reboot /path/to/this/script"
+      cron_command="0 0 * * * curl -sSL https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/kvas-adder.sh -l ${selected_ipset} | bash && @reboot curl -sSL https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/kvas-adder.sh -l ${selected_ipset} | bash"
       echo "Will run every day at 00:00 and on reboot."
       ;;
     4)
@@ -73,11 +100,12 @@ add_ips_to_ipset() {
 }
 
 # Main script execution
+parse_args "$@"
 
 select_ipset
 select_cron_option
 
-# Set cron job if necessary
+# Set cron job if necessary and not skipped
 if [[ -n "$cron_command" ]]; then
   (crontab -l ; echo "$cron_command") | crontab -
   echo "Cron job set."
