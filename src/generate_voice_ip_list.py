@@ -1,3 +1,4 @@
+import datetime
 import sys
 import asyncio
 import aiofiles
@@ -45,8 +46,11 @@ async def main():
     await asyncio.gather(*tasks)
 
     # Write all results to the file at once
-    async with aiofiles.open('ip_list_new.txt', 'w') as f:
+    async with aiofiles.open('ip_list_new.txt', 'a') as f:
         await f.write("\n".join(results) + "\n")
 
 if __name__ == "__main__":
+    start_time = datetime.datetime.now()
     asyncio.run(main())
+    end_time = datetime.datetime.now()
+    print(f"\nFinished! Time taken: {end_time - start_time}")
