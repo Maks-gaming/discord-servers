@@ -1,29 +1,44 @@
-# Discord Servers
+# Discord Servers IP Management 🌐
+This repository helps you configure your routing system by automatically retrieving the IP addresses of all available Discord voice chat servers for different regions. This is particularly useful when servers are unavailable or need proper routing adjustments.
 
-A repository is necessary to properly configure your routing in case they are not available on premises at a location.
-- The script **automatically** retrieves IP addresses of all available Discord voice chat servers for every region.
-
-## Regions
-List of known and available regions:
+## 🌍 Available Regions
 > atlanta, brazil, bucharest, buenos-aires, dubai, finland, frankfurt, hongkong, india, japan, madrid, milan, newark, rotterdam, russia, santa-clara, santiago, seattle, singapore, south-korea, southafrica, stage-scale, stockholm, sydney, tel-aviv, us-central, us-east, us-south, us-west, warsaw, st-pete, dammam, jakarta, montreal, oregon
 
-## Usage
-### With [ipset](https://ipset.netfilter.org/ipset.man.html) or [kvas](https://github.com/qzeleza/kvas)
-Install "bash" and "wget" package if you haven't
+## 🛠️ Usage
+### 🔧 Using with `kvas` or `ipset`
+> If you’re using kvas or entware/openwrt systems, follow these steps to set up the script:
+#### Install prerequisites:
+Make sure you have bash and wget installed:
+
 ```sh
-# For kvas and entware/openwrt systems
 opkg update
 opkg install bash
 opkg install wget
 ```
-Run the script
+
+#### Run the script:
+Use the following command to automatically fetch and configure the IP addresses:
 ```sh
 wget -O - https://raw.githubusercontent.com/Maks-gaming/discord-servers/refs/heads/main/kvas-adder.sh | bash
 ```
-Then just select your target IPSet list and select crontab autoupdate time. Done!
 
-## Local start
-To run the script yourself, bend the repository and run the script by specifying the region:
+#### Configuration:
+- Choose your desired IPSet list.
+- Set your crontab autoupdate frequency.
+
+That’s it! 🎉
+
+## ⚙️ Running Locally
+If you want to run the script locally, simply clone the repository and specify your target region:
+
+1. Clone the repository:
 ```sh
-python ./src/generate_voice_ip_list.py {region}
+git clone https://github.com/Maks-gaming/discord-servers.git
+cd discord-servers
 ```
+
+2. Run the script:
+```sh
+python ./src/generate_voice_ip_list.py [region]
+```
+Replace `[region]` with the region of your choice (e.g., us-east, brazil, singapore).
