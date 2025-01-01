@@ -1,0 +1,158 @@
+name: 🔁 Update Voice IP lists
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+jobs:
+  update_voice_lists:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ☑️ Checkout
+        uses: actions/checkout@v2
+
+      - name: 🐍 Set up Python3
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+
+      - name: ↘️ Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install dnspython
+
+      - name: 🌐 Resolve atlanta
+        run: |
+          python ./src/generate_voice_ip_list.py atlanta
+
+      - name: 🌐 Resolve brazil
+        run: |
+          python ./src/generate_voice_ip_list.py brazil
+
+      - name: 🌐 Resolve bucharest
+        run: |
+          python ./src/generate_voice_ip_list.py bucharest
+
+      - name: 🌐 Resolve buenos-aires
+        run: |
+          python ./src/generate_voice_ip_list.py bucharest
+
+      - name: 🌐 Resolve dubai
+        run: |
+          python ./src/generate_voice_ip_list.py dubai
+
+      - name: 🌐 Resolve finland
+        run: |
+          python ./src/generate_voice_ip_list.py finland
+
+      - name: 🌐 Resolve frankfurt
+        run: |
+          python ./src/generate_voice_ip_list.py frankfurt
+
+      - name: 🌐 Resolve hongkong
+        run: |
+          python ./src/generate_voice_ip_list.py hongkong
+
+      - name: 🌐 Resolve india
+        run: |
+          python ./src/generate_voice_ip_list.py india
+
+      - name: 🌐 Resolve japan
+        run: |
+          python ./src/generate_voice_ip_list.py japan
+
+      - name: 🌐 Resolve madrid
+        run: |
+          python ./src/generate_voice_ip_list.py madrid
+
+      - name: 🌐 Resolve milan
+        run: |
+          python ./src/generate_voice_ip_list.py milan
+
+      - name: 🌐 Resolve newark
+        run: |
+          python ./src/generate_voice_ip_list.py newark
+
+      - name: 🌐 Resolve rotterdam
+        run: |
+          python ./src/generate_voice_ip_list.py rotterdam
+
+      - name: 🌐 Resolve russia
+        run: |
+          python ./src/generate_voice_ip_list.py russia
+
+      - name: 🌐 Resolve santa-clara
+        run: |
+          python ./src/generate_voice_ip_list.py santa-clara
+
+      - name: 🌐 Resolve santiago
+        run: |
+          python ./src/generate_voice_ip_list.py santiago
+
+      - name: 🌐 Resolve seattle
+        run: |
+          python ./src/generate_voice_ip_list.py seattle
+
+      - name: 🌐 Resolve singapore
+        run: |
+          python ./src/generate_voice_ip_list.py singapore
+
+      - name: 🌐 Resolve south-korea
+        run: |
+          python ./src/generate_voice_ip_list.py south-korea
+
+      - name: 🌐 Resolve southafrica
+        run: |
+          python ./src/generate_voice_ip_list.py southafrica
+
+      - name: 🌐 Resolve stage-scale
+        run: |
+          python ./src/generate_voice_ip_list.py stage-scale
+
+      - name: 🌐 Resolve stockholm
+        run: |
+          python ./src/generate_voice_ip_list.py stockholm
+
+      - name: 🌐 Resolve sydney
+        run: |
+          python ./src/generate_voice_ip_list.py sydney
+
+      - name: 🌐 Resolve tel-aviv
+        run: |
+          python ./src/generate_voice_ip_list.py tel-aviv
+
+      - name: 🌐 Resolve us-central
+        run: |
+          python ./src/generate_voice_ip_list.py us-central
+
+      - name: 🌐 Resolve us-east
+        run: |
+          python ./src/generate_voice_ip_list.py us-east
+
+      - name: 🌐 Resolve us-south
+        run: |
+          python ./src/generate_voice_ip_list.py us-south
+
+      - name: 🌐 Resolve us-west
+        run: |
+          python ./src/generate_voice_ip_list.py us-west
+
+      - name: 🌐 Resolve warsaw
+        run: |
+          python ./src/generate_voice_ip_list.py warsaw
+
+      - name: ↗️ Update ip_list.txt
+        run: |
+          rm ./ip_list.txt
+          cp ./ip_list_new.txt ./ip_list.txt
+          rm ./ip_list_new.txt
+
+      - name: 💫 Commit the changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add ./ip_list.txt
+          git commit -m "Update IP list"
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
