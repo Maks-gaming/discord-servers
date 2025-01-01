@@ -40,10 +40,10 @@ async def main():
     ip_list = "\n".join([voice["ip"] for voice in data])
     domain_list = "\n".join([voice["hostname"] for voice in data])
 
-    async with aiofiles.open('voice-ip-list.txt', 'w') as f:
+    async with aiofiles.open(os.path.join("data", 'voice-ip-list.txt'), 'w') as f:
         await f.write(ip_list + "\n")
 
-    async with aiofiles.open('voice-domain-list.txt', 'w') as f:
+    async with aiofiles.open(os.path.join("data", 'voice-domain-list.txt'), 'w') as f:
         await f.write(domain_list + "\n")
 
     # Append new data to the JSON file

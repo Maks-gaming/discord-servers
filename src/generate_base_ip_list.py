@@ -40,7 +40,7 @@ async def main():
 
     # Read the list of domains from the file
     try:
-        async with aiofiles.open('./base-domain-list.txt', 'r') as f:
+        async with aiofiles.open(os.path.join("data", 'base-domain-list.txt'), 'r') as f:
             domains = await f.readlines()
     except FileNotFoundError:
         print("Domain list file not found.")
@@ -58,7 +58,7 @@ async def main():
         return
 
     # Display results instead of saving them
-    async with aiofiles.open('./base-ip-list.txt', 'w') as f:
+    async with aiofiles.open(os.path.join("data", 'base-ip-list.txt'), 'w') as f:
         await f.write("\n".join(map(lambda a: a["ip"], results)) + "\n")
     
     os.makedirs("amnezia", exist_ok=True)
