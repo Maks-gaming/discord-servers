@@ -1,4 +1,4 @@
-# Discord Servers IP Management 🌐
+# Discord Servers 🌐
 This repository helps you configure your routing system by automatically retrieving the IP addresses of all available Discord voice chat servers for different regions. This is particularly useful when servers are unavailable or need proper routing adjustments.
 
 ## 🌍 Available Regions
