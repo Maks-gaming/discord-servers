@@ -8,18 +8,18 @@ This repository helps you configure your routing system by automatically retriev
 ### 🔧 Using with `kvas` or `ipset`
 > If you’re using kvas or entware/openwrt systems, follow these steps to set up the script:
 #### Install prerequisites:
-Make sure you have bash and wget installed:
+Make sure you have bash and curl installed:
 
 ```sh
 opkg update
 opkg install bash
-opkg install wget
+opkg install curl
 ```
 
 #### Run the script:
 Use the following command to automatically fetch and configure the IP addresses:
 ```sh
-wget -O - https://raw.githubusercontent.com/Maks-gaming/discord-servers/refs/heads/main/kvas-adder.sh | bash
+curl -sSL https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/kvas-adder.sh | bash
 ```
 
 #### Configuration:
