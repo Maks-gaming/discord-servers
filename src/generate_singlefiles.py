@@ -4,26 +4,6 @@ import aiofiles
 from datetime import datetime
 import os
 
-async def append_to_json(file_path, new_data):
-    # Check if the file exists and create if not
-    if not os.path.exists(file_path):
-        async with aiofiles.open(file_path, 'w') as f:
-            await f.write(json.dumps([], indent=4))
-
-    # Read and update the existing data
-    async with aiofiles.open(file_path, 'r') as f:
-        try:
-            existing_data = json.loads(await f.read())
-        except json.JSONDecodeError:
-            existing_data = []  # In case of empty or invalid JSON
-
-    existing_data.extend(new_data)  # Efficiently append new data
-
-    # Write the updated data back to the file
-    async with aiofiles.open(file_path, 'w') as f:
-        await f.write(json.dumps(existing_data, indent=4))
-
-
 async def process_region(region: str):
     try:
         region_file_path = os.path.join("regions", region, f'amnezia-{region}-voice-list.json')
@@ -31,6 +11,15 @@ async def process_region(region: str):
             return json.loads(await f.read())
     except Exception as e:
         print(f"Error processing region {region}: {e}")
+        return []  # Return empty list on failure
+    
+async def process_base():
+    try:
+        region_file_path = 'amnezia-base-list.json'
+        async with aiofiles.open(region_file_path, 'r') as f:
+            return json.loads(await f.read())
+    except Exception as e:
+        print(f"Error processing base domains: {e}")
         return []  # Return empty list on failure
 
 
@@ -41,6 +30,7 @@ async def main():
     # Process regions concurrently
     tasks = [process_region(region) for region in regions]
     region_data = await asyncio.gather(*tasks)
+    base_data = await process_base()
 
     for row in region_data:
         if row:
@@ -57,7 +47,11 @@ async def main():
         await f.write(domain_list + "\n")
 
     # Append new data to the JSON file
-    await append_to_json('amnezia-voice-list.json', data)
+    async with aiofiles.open('amnezia-voice-list.json', 'w') as f:
+        await f.write(json.dumps(data, indent=4))
+    
+    async with aiofiles.open('amnezia-everything-list.json', 'w') as f:
+        await f.write(json.dumps(base_data + data, indent=4))
 
 
 if __name__ == "__main__":
