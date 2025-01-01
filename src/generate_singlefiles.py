@@ -47,10 +47,12 @@ async def main():
         await f.write(domain_list + "\n")
 
     # Append new data to the JSON file
-    async with aiofiles.open('amnezia-voice-list.json', 'w') as f:
+    os.makedirs("amnezia", exist_ok=True)
+        
+    async with aiofiles.open(os.path.join("amnezia", 'amnezia-voice-list.json'), 'w') as f:
         await f.write(json.dumps(data, indent=4))
     
-    async with aiofiles.open('amnezia-everything-list.json', 'w') as f:
+    async with aiofiles.open(os.path.join("amnezia", 'amnezia-everything-list.json'), 'w') as f:
         await f.write(json.dumps(base_data + data, indent=4))
 
 

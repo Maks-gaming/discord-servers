@@ -60,8 +60,9 @@ async def main():
     # Display results instead of saving them
     async with aiofiles.open('./base-ip-list.txt', 'w') as f:
         await f.write("\n".join(map(lambda a: a["ip"], results)) + "\n")
-        
-    async with aiofiles.open('./amnezia-base-list.json', 'w') as f:
+    
+    os.makedirs("amnezia", exist_ok=True)
+    async with aiofiles.open(os.path.join("amnezia", 'amnezia-base-list.json'), 'w') as f:
         await f.write(json.dumps(results, indent=4))
 
 if __name__ == "__main__":
