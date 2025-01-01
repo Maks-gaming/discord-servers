@@ -19,7 +19,7 @@ opkg install curl
 #### Run the script:
 Use the following command to automatically fetch and configure the IP addresses:
 ```sh
-curl -O https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/kvas-adder.sh && bash kvas-adder.sh
+curl -O https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/ipset-adder.sh && bash ipset-adder.sh
 ```
 
 #### Configuration:
