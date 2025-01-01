@@ -165,7 +165,6 @@ jobs:
 
       - name: ↗️ Update ip_list.txt
         run: |
-          rm ./ip_list.txt
           cp ./ip_list_new.txt ./ip_list.txt
           rm ./ip_list_new.txt
 
