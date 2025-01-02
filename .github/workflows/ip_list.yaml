@@ -23,6 +23,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install dnspython
           pip install aiofiles
+          pip install ipwhois
 
       - name: ↗️ Resolve base domains
         run: |
@@ -172,10 +173,14 @@ jobs:
         run: |
           python ./src/generate_singlefiles.py
 
+      - name: 🔍 Recognizing CIDRs
+        run: |
+          python ./src/generate_cidr_list.py
+
       - name: 💫 Commit the changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add -A
-          git commit -m "Update voice lists"
+          git commit -m "[bot] Automatic update of voice lists ($(date -u +'%Y-%m-%d %H:%M:%S UTC'))"}
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
