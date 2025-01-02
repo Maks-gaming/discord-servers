@@ -182,5 +182,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add -A
-          git commit -m "[bot] Automatic update of voice lists ($(date -u +'%Y-%m-%d %H:%M:%S UTC'))"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          git commit -m "[bot] Automatic update of lists ($(date -u +'%m/%d/%y %H:%M:%S UTC'))"
+          git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
