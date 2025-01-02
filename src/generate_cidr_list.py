@@ -1,8 +1,12 @@
 import asyncio
 from concurrent.futures import ThreadPoolExecutor
 import os
+import re
 from ipwhois import IPWhois
 from aiofiles import open as aio_open
+
+def alphanumeric_key(s):
+    return [int(text) if text.isdigit() else text.lower() for text in re.split('([0-9]+)', s)]
 
 def get_cidr_sync(ip):
     """Perform the IP lookup synchronously."""
@@ -43,7 +47,7 @@ async def process_region(region, executor, semaphore):
 
     # Write unique CIDRs to file (only once per region)
     async with aio_open(cidr_list_file, 'w') as f:
-        await f.write("\n".join(unique_cidrs))
+        await f.write("\n".join(sorted(unique_cidrs, key=alphanumeric_key)))
 
     return unique_cidrs
 
@@ -69,7 +73,7 @@ async def main():
     # Write all unique CIDRs to the final file
     raw_output_file = os.path.join("data", 'voice-cidr-list.txt')
     async with aio_open(raw_output_file, 'w') as f:
-        await f.write("\n".join(all_cidrs))
+        await f.write("\n".join(sorted(all_cidrs, key=alphanumeric_key)))
 
 if __name__ == "__main__":
     from datetime import datetime

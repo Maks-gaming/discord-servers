@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import sys
 import asyncio
 import aiofiles
@@ -8,6 +9,9 @@ from datetime import datetime
 
 resolver = dns.asyncresolver.Resolver()
 resolver.nameservers = ['8.8.8.8', '8.8.4.4']
+
+def alphanumeric_key(s):
+    return [int(text) if text.isdigit() else text.lower() for text in re.split('([0-9]+)', s)]
 
 async def get_a_records(domain, retries=3, delay=1):
     for attempt in range(retries):
@@ -59,11 +63,11 @@ async def main():
 
     # Display results instead of saving them
     async with aiofiles.open(os.path.join("data", 'base-ip-list.txt'), 'w') as f:
-        await f.write("\n".join(map(lambda a: a["ip"], results)) + "\n")
+        await f.write("\n".join(sorted(map(lambda a: a["ip"], results), key=alphanumeric_key)) + "\n")
     
     os.makedirs("amnezia", exist_ok=True)
     async with aiofiles.open(os.path.join("amnezia", 'amnezia-base-list.json'), 'w') as f:
-        await f.write(json.dumps(results, indent=4))
+        await f.write(json.dumps(sorted(results, key=lambda a: alphanumeric_key(a['hostname'])), indent=4))
 
 if __name__ == "__main__":
     start_time = datetime.now()

@@ -1,8 +1,12 @@
 import json
 import asyncio
+import re
 import aiofiles
 from datetime import datetime
 import os
+
+def alphanumeric_key(s):
+    return [int(text) if text.isdigit() else text.lower() for text in re.split('([0-9]+)', s)]
 
 async def process_region(region: str):
     try:
@@ -15,7 +19,7 @@ async def process_region(region: str):
     
 async def process_base():
     try:
-        region_file_path = 'amnezia-base-list.json'
+        region_file_path = os.path.join("amnezia", 'amnezia-base-list.json')
         async with aiofiles.open(region_file_path, 'r') as f:
             return json.loads(await f.read())
     except Exception as e:
@@ -37,8 +41,8 @@ async def main():
             data.extend(row)
 
     # Write to text files
-    ip_list = "\n".join([voice["ip"] for voice in data])
-    domain_list = "\n".join([voice["hostname"] for voice in data])
+    ip_list = "\n".join(sorted([voice["ip"] for voice in data], key=alphanumeric_key))
+    domain_list = "\n".join(sorted([voice["hostname"] for voice in data], key=alphanumeric_key))
 
     async with aiofiles.open(os.path.join("data", 'voice-ip-list.txt'), 'w') as f:
         await f.write(ip_list + "\n")
@@ -50,10 +54,10 @@ async def main():
     os.makedirs("amnezia", exist_ok=True)
         
     async with aiofiles.open(os.path.join("amnezia", 'amnezia-voice-list.json'), 'w') as f:
-        await f.write(json.dumps(data, indent=4))
+        await f.write(json.dumps(sorted(data, key=lambda a: alphanumeric_key(a['hostname'])), indent=4))
     
     async with aiofiles.open(os.path.join("amnezia", 'amnezia-everything-list.json'), 'w') as f:
-        await f.write(json.dumps(base_data + data, indent=4))
+        await f.write(json.dumps(sorted(base_data + data, key=lambda a: alphanumeric_key(a['hostname'])), indent=4))
 
 
 if __name__ == "__main__":

@@ -1,4 +1,5 @@
 import json
+import re
 import sys
 import asyncio
 import aiofiles
@@ -16,6 +17,9 @@ print(f"Generating IP list for {region}...")
 
 resolver = dns.asyncresolver.Resolver()
 resolver.nameservers = ['8.8.8.8', '8.8.4.4']
+
+def alphanumeric_key(s):
+    return [int(text) if text.isdigit() else text.lower() for text in re.split('([0-9]+)', s)]
 
 # Increase concurrency limit and handle DNS query timeouts
 async def get_a_records(domain, retries=3, delay=1):
@@ -64,9 +68,9 @@ async def main():
     os.makedirs(region_dir, exist_ok=True)
 
     # Writing all results to files at once to minimize I/O operations
-    ip_list = "\n".join(map(lambda a: a["ip"], results)) + "\n"
-    domain_list = "\n".join(map(lambda a: a["hostname"], results)) + "\n"
-    json_list = json.dumps(results, indent=4)
+    ip_list = "\n".join(sorted(map(lambda a: a["ip"], results), key=alphanumeric_key)) + "\n"
+    domain_list = "\n".join(sorted(map(lambda a: a["hostname"], results), key=alphanumeric_key)) + "\n"
+    json_list = json.dumps(sorted(results, key=lambda d: alphanumeric_key(d['hostname'])), indent=4)
 
     # Perform async writes in batch
     async with aiofiles.open(os.path.join(region_dir, f'{region}-voice-ip-list.txt'), 'w') as f:
