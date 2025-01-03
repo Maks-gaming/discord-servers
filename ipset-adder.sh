@@ -94,7 +94,7 @@ update_crontab() {
 add_ips_to_ipset() {
   urls=(
     "https://raw.githubusercontent.com/Maks-gaming/discord-servers/refs/heads/main/data/base-ip-list.txt"
-    "https://raw.githubusercontent.com/Maks-gaming/discord-servers/refs/heads/main/data/voice-cidr-list.txt"
+    "https://raw.githubusercontent.com/Maks-gaming/discord-servers/refs/heads/main/data/voice-ip-list.txt"
   )
 
   for url in "${urls[@]}"; do
