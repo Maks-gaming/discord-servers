@@ -2,7 +2,7 @@ name: 🔁 Update IP lists
 
 on:
   schedule:
-    - cron: "0 23 * * *"
+    - cron: "0 19 * * *"
   workflow_dispatch:
 
 jobs:
