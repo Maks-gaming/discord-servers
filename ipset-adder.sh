@@ -41,7 +41,6 @@ select_ipset() {
 
 # Function to select the cron job option
 select_cron_option() {
-  # Skip cron registration if the ipset is provided as an argument
   if [ -n "$required_ipset" ]; then
     echo "Skipping cron job setup as IP set is provided."
     return
@@ -65,7 +64,8 @@ select_cron_option() {
       echo "Will run every day at 00:00."
       ;;
     3)
-      cron_command="0 0 * * * curl -O https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/ipset-adder.sh && bash ipset-adder.sh -l ${selected_ipset} ; rm ipset-adder.sh && @reboot curl -O https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/ipset-adder.sh && bash ipset-adder.sh -l ${selected_ipset} ; rm ipset-adder.sh"
+      cron_command="@reboot curl -O https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/ipset-adder.sh && bash ipset-adder.sh -l ${selected_ipset} ; rm ipset-adder.sh
+0 0 * * * curl -O https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/ipset-adder.sh && bash ipset-adder.sh -l ${selected_ipset} ; rm ipset-adder.sh"
       echo "Will run every day at 00:00 and on reboot."
       ;;
     4)
@@ -77,6 +77,17 @@ select_cron_option() {
       cron_command=""
       ;;
   esac
+}
+
+# Function to update crontab
+update_crontab() {
+  if [[ -n "$cron_command" ]]; then
+    # Remove existing related crontab entries
+    (crontab -l 2>/dev/null | grep -v "ipset-adder.sh") | { cat; echo "$cron_command"; } | crontab -
+    echo "Cron job updated."
+  else
+    echo "No cron job set."
+  fi
 }
 
 # Function to add IPs to the selected IP set
@@ -91,7 +102,6 @@ add_ips_to_ipset() {
     ip_list=$(curl -s $url)
 
     while IFS= read -r ip; do
-      # Add IP to the ipset and echo the status in the background
       ipset add "$selected_ipset" "$ip" >/dev/null 2>&1 &
       echo "Adding $ip to $selected_ipset" &
     done <<< "$ip_list"
@@ -103,15 +113,13 @@ add_ips_to_ipset() {
 parse_args "$@"
 
 select_ipset
-select_cron_option
 
-# Set cron job if necessary and not skipped
-if [[ -n "$cron_command" ]]; then
-  (crontab -l ; echo "$cron_command") | crontab -
-  echo "Cron job set."
-else
-  echo "No cron job set."
+# Skip cron setup if -l is provided
+if [ -z "$required_ipset" ]; then
+  select_cron_option
+  update_crontab
 fi
 
 add_ips_to_ipset
+
 echo "IP addresses have been added successfully to the selected IP set!"
