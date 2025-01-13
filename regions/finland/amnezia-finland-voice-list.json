@@ -1,9 +1,5 @@
 [
     {
-        "hostname": "finland10000.discord.gg",
-        "ip": "35.217.35.208"
-    },
-    {
         "hostname": "finland10001.discord.gg",
         "ip": "35.217.39.186"
     },
@@ -14,6 +10,10 @@
     {
         "hostname": "finland10003.discord.gg",
         "ip": "35.217.33.156"
+    },
+    {
+        "hostname": "finland10004.discord.gg",
+        "ip": "35.217.18.57"
     },
     {
         "hostname": "finland10005.discord.gg",
@@ -36,12 +36,12 @@
         "ip": "35.217.56.6"
     },
     {
-        "hostname": "finland10011.discord.gg",
-        "ip": "35.217.21.143"
+        "hostname": "finland10010.discord.gg",
+        "ip": "35.217.49.168"
     },
     {
-        "hostname": "finland10012.discord.gg",
-        "ip": "35.217.5.109"
+        "hostname": "finland10011.discord.gg",
+        "ip": "35.217.21.143"
     },
     {
         "hostname": "finland10013.discord.gg",
@@ -56,12 +56,12 @@
         "ip": "35.217.12.204"
     },
     {
-        "hostname": "finland10017.discord.gg",
-        "ip": "35.217.50.26"
+        "hostname": "finland10016.discord.gg",
+        "ip": "35.217.59.87"
     },
     {
-        "hostname": "finland10018.discord.gg",
-        "ip": "35.217.54.27"
+        "hostname": "finland10017.discord.gg",
+        "ip": "35.217.50.26"
     },
     {
         "hostname": "finland10019.discord.gg",
@@ -100,16 +100,16 @@
         "ip": "35.217.12.192"
     },
     {
-        "hostname": "finland10028.discord.gg",
-        "ip": "35.217.23.172"
-    },
-    {
         "hostname": "finland10029.discord.gg",
         "ip": "35.217.20.158"
     },
     {
         "hostname": "finland10030.discord.gg",
         "ip": "35.217.62.183"
+    },
+    {
+        "hostname": "finland10031.discord.gg",
+        "ip": "35.217.24.25"
     },
     {
         "hostname": "finland10032.discord.gg",
@@ -168,10 +168,6 @@
         "ip": "35.217.50.72"
     },
     {
-        "hostname": "finland10047.discord.gg",
-        "ip": "35.217.20.32"
-    },
-    {
         "hostname": "finland10048.discord.gg",
         "ip": "35.217.47.254"
     },
@@ -188,12 +184,20 @@
         "ip": "35.217.59.122"
     },
     {
+        "hostname": "finland10052.discord.gg",
+        "ip": "35.217.33.65"
+    },
+    {
         "hostname": "finland10053.discord.gg",
         "ip": "35.217.41.204"
     },
     {
         "hostname": "finland10054.discord.gg",
         "ip": "35.217.12.91"
+    },
+    {
+        "hostname": "finland10055.discord.gg",
+        "ip": "35.217.26.214"
     },
     {
         "hostname": "finland10056.discord.gg",
@@ -216,10 +220,6 @@
         "ip": "35.217.36.213"
     },
     {
-        "hostname": "finland10061.discord.gg",
-        "ip": "35.217.0.79"
-    },
-    {
         "hostname": "finland10062.discord.gg",
         "ip": "35.217.40.176"
     },
@@ -230,10 +230,6 @@
     {
         "hostname": "finland10064.discord.gg",
         "ip": "35.217.54.66"
-    },
-    {
-        "hostname": "finland10065.discord.gg",
-        "ip": "35.217.62.165"
     },
     {
         "hostname": "finland10066.discord.gg",
@@ -264,10 +260,6 @@
         "ip": "35.217.49.182"
     },
     {
-        "hostname": "finland10073.discord.gg",
-        "ip": "35.217.37.129"
-    },
-    {
         "hostname": "finland10074.discord.gg",
         "ip": "35.217.5.33"
     },
@@ -276,12 +268,24 @@
         "ip": "35.217.46.78"
     },
     {
+        "hostname": "finland10076.discord.gg",
+        "ip": "35.217.27.203"
+    },
+    {
         "hostname": "finland10077.discord.gg",
         "ip": "35.217.29.98"
     },
     {
         "hostname": "finland10078.discord.gg",
         "ip": "35.217.20.199"
+    },
+    {
+        "hostname": "finland10079.discord.gg",
+        "ip": "35.217.61.131"
+    },
+    {
+        "hostname": "finland10080.discord.gg",
+        "ip": "35.217.14.238"
     },
     {
         "hostname": "finland10081.discord.gg",
@@ -332,12 +336,12 @@
         "ip": "35.217.22.170"
     },
     {
-        "hostname": "finland10093.discord.gg",
-        "ip": "35.217.22.131"
-    },
-    {
         "hostname": "finland10094.discord.gg",
         "ip": "35.217.11.186"
+    },
+    {
+        "hostname": "finland10095.discord.gg",
+        "ip": "35.217.19.183"
     },
     {
         "hostname": "finland10096.discord.gg",
@@ -346,6 +350,10 @@
     {
         "hostname": "finland10097.discord.gg",
         "ip": "35.217.62.48"
+    },
+    {
+        "hostname": "finland10098.discord.gg",
+        "ip": "35.217.31.96"
     },
     {
         "hostname": "finland10099.discord.gg",
@@ -364,10 +372,6 @@
         "ip": "35.217.9.205"
     },
     {
-        "hostname": "finland10103.discord.gg",
-        "ip": "35.217.20.178"
-    },
-    {
         "hostname": "finland10104.discord.gg",
         "ip": "35.217.24.139"
     },
@@ -382,6 +386,10 @@
     {
         "hostname": "finland10107.discord.gg",
         "ip": "35.217.33.182"
+    },
+    {
+        "hostname": "finland10108.discord.gg",
+        "ip": "35.217.46.140"
     },
     {
         "hostname": "finland10109.discord.gg",
@@ -416,10 +424,6 @@
         "ip": "35.217.51.134"
     },
     {
-        "hostname": "finland10117.discord.gg",
-        "ip": "35.217.60.145"
-    },
-    {
         "hostname": "finland10118.discord.gg",
         "ip": "35.217.51.222"
     },
@@ -452,24 +456,24 @@
         "ip": "35.217.31.57"
     },
     {
-        "hostname": "finland10126.discord.gg",
-        "ip": "35.217.55.107"
-    },
-    {
         "hostname": "finland10127.discord.gg",
         "ip": "35.217.9.33"
+    },
+    {
+        "hostname": "finland10128.discord.gg",
+        "ip": "35.217.20.83"
     },
     {
         "hostname": "finland10129.discord.gg",
         "ip": "35.217.35.141"
     },
     {
-        "hostname": "finland10130.discord.gg",
-        "ip": "35.217.12.133"
-    },
-    {
         "hostname": "finland10131.discord.gg",
         "ip": "35.217.60.234"
+    },
+    {
+        "hostname": "finland10132.discord.gg",
+        "ip": "35.217.33.19"
     },
     {
         "hostname": "finland10133.discord.gg",
