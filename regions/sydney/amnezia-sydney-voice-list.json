@@ -36,12 +36,12 @@
         "ip": "35.213.229.17"
     },
     {
-        "hostname": "sydney11009.discord.gg",
-        "ip": "35.213.252.34"
-    },
-    {
         "hostname": "sydney11010.discord.gg",
         "ip": "35.213.223.182"
+    },
+    {
+        "hostname": "sydney11011.discord.gg",
+        "ip": "35.213.204.44"
     },
     {
         "hostname": "sydney11012.discord.gg",
@@ -106,6 +106,10 @@
     {
         "hostname": "sydney11027.discord.gg",
         "ip": "35.213.247.111"
+    },
+    {
+        "hostname": "sydney11028.discord.gg",
+        "ip": "35.213.199.106"
     },
     {
         "hostname": "sydney11029.discord.gg",
@@ -228,10 +232,6 @@
         "ip": "35.213.236.137"
     },
     {
-        "hostname": "sydney11060.discord.gg",
-        "ip": "35.213.214.91"
-    },
-    {
         "hostname": "sydney11061.discord.gg",
         "ip": "35.213.250.159"
     },
@@ -272,10 +272,6 @@
         "ip": "35.213.215.255"
     },
     {
-        "hostname": "sydney11071.discord.gg",
-        "ip": "35.213.251.74"
-    },
-    {
         "hostname": "sydney11072.discord.gg",
         "ip": "35.213.241.59"
     },
@@ -294,10 +290,6 @@
     {
         "hostname": "sydney11076.discord.gg",
         "ip": "35.213.217.225"
-    },
-    {
-        "hostname": "sydney11077.discord.gg",
-        "ip": "35.213.207.206"
     },
     {
         "hostname": "sydney11078.discord.gg",
@@ -328,8 +320,8 @@
         "ip": "35.213.193.74"
     },
     {
-        "hostname": "sydney11086.discord.gg",
-        "ip": "35.213.192.241"
+        "hostname": "sydney11085.discord.gg",
+        "ip": "35.213.233.5"
     },
     {
         "hostname": "sydney11087.discord.gg",
@@ -358,6 +350,18 @@
     {
         "hostname": "sydney11093.discord.gg",
         "ip": "35.213.202.9"
+    },
+    {
+        "hostname": "sydney11094.discord.gg",
+        "ip": "35.213.211.177"
+    },
+    {
+        "hostname": "sydney11095.discord.gg",
+        "ip": "35.213.246.147"
+    },
+    {
+        "hostname": "sydney11096.discord.gg",
+        "ip": "35.213.231.2"
     },
     {
         "hostname": "sydney11097.discord.gg",
