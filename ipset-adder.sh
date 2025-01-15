@@ -1,125 +1,150 @@
-#!/bin/bash
+#!/opt/bin/bash
 
-# Function to parse the arguments
-parse_args() {
-  while getopts ":l:" opt; do
-    case $opt in
-      l)
-        required_ipset="$OPTARG"
-        echo "Required IP set: $required_ipset"
-        ;;
-      \?)
-        echo "Usage: $0 [-l ipset_name]" >&2
-        exit 1
-        ;;
-    esac
-  done
+# Color definitions
+RED="\033[31m"
+GREEN="\033[32m"
+YELLOW="\033[33m"
+BLUE="\033[34m"
+MAGENTA="\033[35m"
+CYAN="\033[36m"
+BOLD="\033[1m"
+NC="\033[0m" # No color
+
+# Function to get absolute path
+get_absolute_path() {
+    local path="$1"
+    echo "$(cd "$(dirname "$path")" && pwd)/$(basename "$path")"
 }
 
-# Function to select the IP set
-select_ipset() {
-  if [ -z "$required_ipset" ]; then
-    echo "Fetching list of available ipsets..."
+# URLs for downloading IP lists
+VOICE_IP_LIST_URL="https://raw.githubusercontent.com/Maks-gaming/discord-servers/refs/heads/main/data/voice-ip-list.txt"
+BASE_IP_LIST_URL="https://raw.githubusercontent.com/Maks-gaming/discord-servers/refs/heads/main/data/base-ip-list.txt"
+
+# Command-line flags
+IPSET_NAME=""
+
+# Process arguments
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        --ipset) IPSET_NAME="$2"; shift ;;
+        *) echo -e "${RED}Unknown parameter: $1${NC}"; exit 1 ;;
+    esac
+    shift
+done
+
+# Fetch available ipsets if no --ipset provided
+if [ -z "$IPSET_NAME" ]; then
+    echo -e "${CYAN}Fetching list of available ipsets...${NC}"
     ipsets=$(ipset list -n | grep -vE '(^_NDM|^_UPNP)')
     ipsets_array=($ipsets)
 
-    echo "Please select a list by number:"
+    if [ ${#ipsets_array[@]} -eq 0 ]; then
+        echo -e "${RED}No ipsets found. Exiting.${NC}"
+        exit 1
+    fi
+
+    echo -e "${YELLOW}Please select a list by number:${NC}"
     i=1
     for ipset in "${ipsets_array[@]}"; do
-      echo "$i) $ipset"
-      ((i++))
+        if [[ "$ipset" == "KVAS_LIST" || "$ipset" == "unblock" ]]; then
+            echo -e "${BOLD}$i) $ipset ${GREEN}(recommended)${NC}"
+        else
+            echo -e "${BOLD}$i) $ipset${NC}"
+        fi
+        ((i++))
     done
 
-    read -p "Enter the number corresponding to the list: " ipset_index
-    selected_ipset="${ipsets_array[$ipset_index-1]}"
-    echo "You have selected: $selected_ipset"
-  else
-    selected_ipset="$required_ipset"
-    echo "Using the required IP set: $selected_ipset"
-  fi
-}
+    read -p "Enter the number corresponding to the desired ipset: " SELECTED_INDEX
+    if [[ ! $SELECTED_INDEX =~ ^[0-9]+$ ]] || [ $SELECTED_INDEX -lt 1 ] || [ $SELECTED_INDEX -gt ${#ipsets_array[@]} ]; then
+        echo -e "${RED}Invalid selection. Exiting.${NC}"
+        exit 1
+    fi
 
-# Function to select the cron job option
-select_cron_option() {
-  if [ -n "$required_ipset" ]; then
-    echo "Skipping cron job setup as IP set is provided."
-    return
-  fi
+    IPSET_NAME=${ipsets_array[$((SELECTED_INDEX - 1))]}
 
-  echo "Choose the cron job option:"
-  echo "1) Execute on every reboot"
-  echo "2) Execute every day at 00:00"
-  echo "3) Execute every day at 00:00 and on reboot"
-  echo "4) Do not execute"
-  
-  read -p "Enter the number of your choice: " cron_option
-  
-  case $cron_option in
-    1)
-      cron_command="@reboot bash -c 'curl -O https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/ipset-adder.sh && bash ipset-adder.sh -l ${selected_ipset} && rm ipset-adder.sh'"
-      echo "Will run on reboot."
-      ;;
-    2)
-      cron_command="0 0 * * * bash -c 'curl -O https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/ipset-adder.sh && bash ipset-adder.sh -l ${selected_ipset} && rm ipset-adder.sh'"
-      echo "Will run every day at 00:00."
-      ;;
-    3)
-      cron_command="@reboot bash -c 'curl -O https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/ipset-adder.sh && bash ipset-adder.sh -l ${selected_ipset} && rm ipset-adder.sh'
-0 0 * * * bash -c 'curl -O https://raw.githubusercontent.com/Maks-gaming/discord-servers/main/ipset-adder.sh && bash ipset-adder.sh -l ${selected_ipset} && rm ipset-adder.sh'"
-      echo "Will run every day at 00:00 and on reboot."
-      ;;
-    4)
-      cron_command=""
-      echo "No cron job will be set."
-      ;;
-    *)
-      echo "Invalid choice. No cron job set."
-      cron_command=""
-      ;;
-  esac
-}
+    # Setup cron job
+    echo -e "${CYAN}Choose the cron job option:${NC}"
+    echo -e "${BOLD}1)${NC} Execute on every reboot"
+    echo -e "${BOLD}2)${NC} Execute every day at 00:00"
+    echo -e "${BOLD}3)${NC} Execute every day at 00:00 and on reboot"
+    echo -e "${BOLD}4)${NC} Do not execute"
+    read -p "Enter your choice (1-4): " CRON_OPTION
 
-# Function to update crontab
-update_crontab() {
-  if [[ -n "$cron_command" ]]; then
-    # Remove existing related crontab entries
-    (crontab -l 2>/dev/null | grep -v "ipset-adder.sh") | { cat; echo "$cron_command"; } | crontab -
-    echo "Cron job updated."
-  else
-    echo "No cron job set."
-  fi
-}
+    CRONTAB_OUTPUT=$(crontab -l 2>/dev/null || true)
+    SCRIPT_PATH=$(get_absolute_path "$0")
+    CRON_CMD="bash $SCRIPT_PATH --ipset $IPSET_NAME"
 
-# Function to add IPs to the selected IP set
-add_ips_to_ipset() {
-  urls=(
-    "https://raw.githubusercontent.com/Maks-gaming/discord-servers/refs/heads/main/data/base-ip-list.txt"
-    "https://raw.githubusercontent.com/Maks-gaming/discord-servers/refs/heads/main/data/voice-ip-list.txt"
-  )
+    # Remove previous entries
+    CRONTAB_OUTPUT=$(echo "$CRONTAB_OUTPUT" | grep -v "$CRON_CMD")
 
-  for url in "${urls[@]}"; do
-    echo "Fetching IP list from $url..."
-    ip_list=$(curl -s $url)
+    case $CRON_OPTION in
+        1)
+            echo -e "${GREEN}Setting up cron job to execute on every reboot...${NC}"
+            CRONTAB_OUTPUT="$CRONTAB_OUTPUT"$'\n'"@reboot $CRON_CMD"
+            ;;
+        2)
+            echo -e "${GREEN}Setting up cron job to execute every day at 00:00...${NC}"
+            CRONTAB_OUTPUT="$CRONTAB_OUTPUT"$'\n'"0 0 * * * $CRON_CMD"
+            ;;
+        3)
+            echo -e "${GREEN}Setting up cron jobs for every day at 00:00 and on reboot...${NC}"
+            CRONTAB_OUTPUT="$CRONTAB_OUTPUT"$'\n'"@reboot $CRON_CMD"$'\n'"0 0 * * * $CRON_CMD"
+            ;;
+        4)
+            echo -e "${YELLOW}No cron job will be set.${NC}"
+            ;;
+        *)
+            echo -e "${RED}Invalid cron option. Exiting.${NC}"
+            exit 1
+            ;;
+    esac
 
-    while IFS= read -r ip; do
-      ipset add "$selected_ipset" "$ip" >/dev/null 2>&1 &
-      echo "Adding $ip to $selected_ipset" &
-    done <<< "$ip_list"
-  done
-  wait  # Wait for all background processes to complete
-}
-
-# Main script execution
-parse_args "$@"
-
-select_ipset
-
-# Skip cron setup if -l is provided
-if [ -z "$required_ipset" ]; then
-  select_cron_option
-  update_crontab
+    # Apply the new crontab
+    echo "$CRONTAB_OUTPUT" | crontab -
+    echo -e "${GREEN}Cron job setup complete.${NC}"
+else
+    echo -e "${CYAN}Skipping cron setup as --ipset is provided.${NC}"
 fi
 
-add_ips_to_ipset
+# Download IP addresses
+echo -e "${CYAN}Downloading IP addresses from $VOICE_IP_LIST_URL and $BASE_IP_LIST_URL...${NC}"
+voice_ip_list=$(curl -s "$VOICE_IP_LIST_URL")
+base_ip_list=$(curl -s "$BASE_IP_LIST_URL")
 
-echo "IP addresses have been added successfully to the selected IP set!"
+if [ -z "$voice_ip_list" ] || [ -z "$base_ip_list" ]; then
+    echo -e "${RED}Failed to fetch IP addresses. Exiting.${NC}"
+    exit 1
+fi
+
+# Combine and process IP lists
+combined_ip_list=$(echo -e "$voice_ip_list\n$base_ip_list" | sort -u)
+
+# Optimized IP address addition
+existing_ips=$(ipset list "$IPSET_NAME" | sed -n '/^Members:/,$p' | tail -n +2 | awk '{ print $1 }' | sort)
+
+declare -A existing_ips_array
+while IFS= read -r ip; do
+    ip="${ip// }"
+    if [[ -n "$ip" ]]; then
+        existing_ips_array["$ip"]=1
+    fi
+done <<< "$existing_ips"
+
+tmp_ipset_restore_file=$(mktemp)
+while IFS= read -r ip; do
+    ip="${ip// }"
+    if [[ -z "${existing_ips_array["$ip"]-}" ]]; then
+        echo "add $IPSET_NAME $ip -exist" >> "$tmp_ipset_restore_file"
+        existing_ips_array["$ip"]=1
+    fi
+done <<< "$combined_ip_list"
+
+if [[ -s "$tmp_ipset_restore_file" ]]; then
+    ipset restore < "$tmp_ipset_restore_file"
+    count=$(wc -l < "$tmp_ipset_restore_file")
+    echo -e "${GREEN}Loaded ${YELLOW}$count${GREEN} IP addresses into IPset list ${YELLOW}$IPSET_NAME${NC}"
+else
+    echo -e "${RED}No new IP addresses to add to IPset.${NC}"
+fi
+
+rm -f "$tmp_ipset_restore_file"
