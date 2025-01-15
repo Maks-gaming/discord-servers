@@ -72,23 +72,27 @@ if [ -z "$IPSET_NAME" ]; then
 
     CRONTAB_OUTPUT=$(crontab -l 2>/dev/null || true)
     SCRIPT_PATH=$(get_absolute_path "$0")
-    CRON_CMD="bash $SCRIPT_PATH --ipset $IPSET_NAME"
+    SCRIPT_TO_RUN="$SCRIPT_PATH --ipset $IPSET_NAME"
 
     # Remove previous entries
-    CRONTAB_OUTPUT=$(echo "$CRONTAB_OUTPUT" | grep -v "$CRON_CMD")
+    CRONTAB_OUTPUT=$(echo "$CRONTAB_OUTPUT" | grep -v "$SCRIPT_TO_RUN")
 
     case $CRON_OPTION in
         1)
             echo -e "${GREEN}Setting up cron job to execute on every reboot...${NC}"
-            CRONTAB_OUTPUT="$CRONTAB_OUTPUT"$'\n'"@reboot $CRON_CMD"
+            REBOOT_CRON_ENTRY="@reboot cd $(dirname "$SCRIPT_PATH") && /opt/bin/bash $SCRIPT_TO_RUN"
+            CRONTAB_OUTPUT="$CRONTAB_OUTPUT"$'\n'"$REBOOT_CRON_ENTRY"
             ;;
         2)
             echo -e "${GREEN}Setting up cron job to execute every day at 00:00...${NC}"
-            CRONTAB_OUTPUT="$CRONTAB_OUTPUT"$'\n'"0 0 * * * $CRON_CMD"
+            MIDNIGHT_CRON_ENTRY="0 0 * * * cd $(dirname "$SCRIPT_PATH") && /opt/bin/bash $SCRIPT_TO_RUN"
+            CRONTAB_OUTPUT="$CRONTAB_OUTPUT"$'\n'"$MIDNIGHT_CRON_ENTRY"
             ;;
         3)
             echo -e "${GREEN}Setting up cron jobs for every day at 00:00 and on reboot...${NC}"
-            CRONTAB_OUTPUT="$CRONTAB_OUTPUT"$'\n'"@reboot $CRON_CMD"$'\n'"0 0 * * * $CRON_CMD"
+            REBOOT_CRON_ENTRY="@reboot cd $(dirname "$SCRIPT_PATH") && /opt/bin/bash $SCRIPT_TO_RUN"
+            MIDNIGHT_CRON_ENTRY="0 0 * * * cd $(dirname "$SCRIPT_PATH") && /opt/bin/bash $SCRIPT_TO_RUN"
+            CRONTAB_OUTPUT="$CRONTAB_OUTPUT"$'\n'"$REBOOT_CRON_ENTRY"$'\n'"$MIDNIGHT_CRON_ENTRY"
             ;;
         4)
             echo -e "${YELLOW}No cron job will be set.${NC}"
