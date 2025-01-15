@@ -80,18 +80,18 @@ if [ -z "$IPSET_NAME" ]; then
     case $CRON_OPTION in
         1)
             echo -e "${GREEN}Setting up cron job to execute on every reboot...${NC}"
-            REBOOT_CRON_ENTRY="@reboot cd $(dirname "$SCRIPT_PATH") && /opt/bin/bash $SCRIPT_TO_RUN"
+            REBOOT_CRON_ENTRY="@reboot /opt/bin/bash $SCRIPT_TO_RUN"
             CRONTAB_OUTPUT="$CRONTAB_OUTPUT"$'\n'"$REBOOT_CRON_ENTRY"
             ;;
         2)
             echo -e "${GREEN}Setting up cron job to execute every day at 00:00...${NC}"
-            MIDNIGHT_CRON_ENTRY="0 0 * * * cd $(dirname "$SCRIPT_PATH") && /opt/bin/bash $SCRIPT_TO_RUN"
+            MIDNIGHT_CRON_ENTRY="0 0 * * * /opt/bin/bash $SCRIPT_TO_RUN"
             CRONTAB_OUTPUT="$CRONTAB_OUTPUT"$'\n'"$MIDNIGHT_CRON_ENTRY"
             ;;
         3)
             echo -e "${GREEN}Setting up cron jobs for every day at 00:00 and on reboot...${NC}"
-            REBOOT_CRON_ENTRY="@reboot cd $(dirname "$SCRIPT_PATH") && /opt/bin/bash $SCRIPT_TO_RUN"
-            MIDNIGHT_CRON_ENTRY="0 0 * * * cd $(dirname "$SCRIPT_PATH") && /opt/bin/bash $SCRIPT_TO_RUN"
+            REBOOT_CRON_ENTRY="@reboot /opt/bin/bash $SCRIPT_TO_RUN"
+            MIDNIGHT_CRON_ENTRY="0 0 * * * /opt/bin/bash $SCRIPT_TO_RUN"
             CRONTAB_OUTPUT="$CRONTAB_OUTPUT"$'\n'"$REBOOT_CRON_ENTRY"$'\n'"$MIDNIGHT_CRON_ENTRY"
             ;;
         4)
