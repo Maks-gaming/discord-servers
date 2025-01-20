@@ -149,26 +149,6 @@ jobs:
         run: |
           python ./src/generate_voice_ip_list.py warsaw
 
-      - name: 🌐 Resolve st-pete
-        run: |
-          python ./src/generate_voice_ip_list.py st-pete
-
-      - name: 🌐 Resolve dammam
-        run: |
-          python ./src/generate_voice_ip_list.py dammam
-
-      - name: 🌐 Resolve jakarta
-        run: |
-          python ./src/generate_voice_ip_list.py jakarta
-
-      - name: 🌐 Resolve montreal
-        run: |
-          python ./src/generate_voice_ip_list.py montreal
-
-      - name: 🌐 Resolve oregon
-        run: |
-          python ./src/generate_voice_ip_list.py oregon
-
       - name: 📁 Generating configurations
         run: |
           python ./src/generate_singlefiles.py

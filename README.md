@@ -2,7 +2,7 @@
 This repository helps you configure your routing system by automatically retrieving the IP addresses of all available Discord voice chat servers for different regions. This is particularly useful when servers are unavailable or need proper routing adjustments.
 
 ## 🌍 Available Regions
-> atlanta, brazil, bucharest, buenos-aires, dubai, finland, frankfurt, hongkong, india, japan, madrid, milan, newark, rotterdam, russia, santa-clara, santiago, seattle, singapore, south-korea, southafrica, stage-scale, stockholm, sydney, tel-aviv, us-central, us-east, us-south, us-west, warsaw, st-pete, dammam, jakarta, montreal, oregon
+> atlanta, brazil, bucharest, buenos-aires, dubai, finland, frankfurt, hongkong, india, japan, madrid, milan, newark, rotterdam, russia, santa-clara, santiago, seattle, singapore, south-korea, southafrica, stage-scale, stockholm, sydney, tel-aviv, us-central, us-east, us-south, us-west, warsaw
 
 ## 🛠️ Usage
 ### 🔧 Using with `kvas` or `ipset`
