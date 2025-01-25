@@ -264,10 +264,6 @@
         "ip": "66.22.223.122"
     },
     {
-        "hostname": "atlanta7447.discord.gg",
-        "ip": "66.22.222.123"
-    },
-    {
         "hostname": "atlanta7660.discord.gg",
         "ip": "66.22.223.25"
     },
@@ -332,10 +328,6 @@
         "ip": "66.22.223.27"
     },
     {
-        "hostname": "atlanta9169.discord.gg",
-        "ip": "66.22.223.4"
-    },
-    {
         "hostname": "atlanta9190.discord.gg",
         "ip": "66.22.223.111"
     },
@@ -350,6 +342,10 @@
     {
         "hostname": "atlanta9511.discord.gg",
         "ip": "66.22.223.113"
+    },
+    {
+        "hostname": "atlanta9547.discord.gg",
+        "ip": "66.22.223.124"
     },
     {
         "hostname": "atlanta9712.discord.gg",
@@ -370,5 +366,9 @@
     {
         "hostname": "atlanta9922.discord.gg",
         "ip": "66.22.223.10"
+    },
+    {
+        "hostname": "atlanta9978.discord.gg",
+        "ip": "66.22.223.123"
     }
 ]
