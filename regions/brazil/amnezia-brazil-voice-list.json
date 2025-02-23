@@ -56,10 +56,6 @@
         "ip": "66.22.202.6"
     },
     {
-        "hostname": "brazil1444.discord.gg",
-        "ip": "66.22.200.34"
-    },
-    {
         "hostname": "brazil1598.discord.gg",
         "ip": "66.22.200.25"
     },
@@ -94,10 +90,6 @@
     {
         "hostname": "brazil2265.discord.gg",
         "ip": "66.22.200.62"
-    },
-    {
-        "hostname": "brazil2270.discord.gg",
-        "ip": "66.22.202.44"
     },
     {
         "hostname": "brazil2281.discord.gg",
@@ -152,12 +144,12 @@
         "ip": "66.22.202.30"
     },
     {
-        "hostname": "brazil4256.discord.gg",
-        "ip": "66.22.202.10"
+        "hostname": "brazil4000.discord.gg",
+        "ip": "66.22.202.46"
     },
     {
-        "hostname": "brazil4265.discord.gg",
-        "ip": "66.22.200.37"
+        "hostname": "brazil4256.discord.gg",
+        "ip": "66.22.202.10"
     },
     {
         "hostname": "brazil4309.discord.gg",
@@ -192,10 +184,6 @@
         "ip": "66.22.202.52"
     },
     {
-        "hostname": "brazil5562.discord.gg",
-        "ip": "66.22.200.21"
-    },
-    {
         "hostname": "brazil5600.discord.gg",
         "ip": "66.22.202.27"
     },
@@ -228,20 +216,12 @@
         "ip": "66.22.200.22"
     },
     {
-        "hostname": "brazil6613.discord.gg",
-        "ip": "66.22.200.30"
-    },
-    {
         "hostname": "brazil6833.discord.gg",
         "ip": "66.22.200.12"
     },
     {
         "hostname": "brazil7011.discord.gg",
         "ip": "66.22.202.22"
-    },
-    {
-        "hostname": "brazil7080.discord.gg",
-        "ip": "66.22.200.41"
     },
     {
         "hostname": "brazil7238.discord.gg",
@@ -284,8 +264,8 @@
         "ip": "66.22.200.32"
     },
     {
-        "hostname": "brazil8579.discord.gg",
-        "ip": "66.22.200.28"
+        "hostname": "brazil8280.discord.gg",
+        "ip": "66.22.202.11"
     },
     {
         "hostname": "brazil8774.discord.gg",
@@ -308,16 +288,20 @@
         "ip": "66.22.202.54"
     },
     {
+        "hostname": "brazil11000.discord.gg",
+        "ip": "35.215.251.138"
+    },
+    {
         "hostname": "brazil11001.discord.gg",
         "ip": "35.215.238.18"
     },
     {
-        "hostname": "brazil11003.discord.gg",
-        "ip": "35.215.193.92"
+        "hostname": "brazil11002.discord.gg",
+        "ip": "35.215.194.205"
     },
     {
-        "hostname": "brazil11004.discord.gg",
-        "ip": "35.215.228.202"
+        "hostname": "brazil11003.discord.gg",
+        "ip": "35.215.193.92"
     },
     {
         "hostname": "brazil11005.discord.gg",
@@ -340,8 +324,16 @@
         "ip": "35.215.192.221"
     },
     {
+        "hostname": "brazil11011.discord.gg",
+        "ip": "35.215.208.216"
+    },
+    {
         "hostname": "brazil11012.discord.gg",
         "ip": "35.215.207.120"
+    },
+    {
+        "hostname": "brazil11013.discord.gg",
+        "ip": "35.215.251.234"
     },
     {
         "hostname": "brazil11014.discord.gg",
@@ -360,6 +352,10 @@
         "ip": "35.215.233.63"
     },
     {
+        "hostname": "brazil11018.discord.gg",
+        "ip": "35.215.227.92"
+    },
+    {
         "hostname": "brazil11019.discord.gg",
         "ip": "35.215.221.163"
     },
@@ -368,12 +364,12 @@
         "ip": "35.215.232.28"
     },
     {
-        "hostname": "brazil11022.discord.gg",
-        "ip": "35.215.217.16"
+        "hostname": "brazil11021.discord.gg",
+        "ip": "35.215.231.83"
     },
     {
-        "hostname": "brazil11023.discord.gg",
-        "ip": "35.215.218.91"
+        "hostname": "brazil11022.discord.gg",
+        "ip": "35.215.217.16"
     },
     {
         "hostname": "brazil11024.discord.gg",
@@ -476,8 +472,12 @@
         "ip": "35.215.235.255"
     },
     {
-        "hostname": "brazil11051.discord.gg",
-        "ip": "35.215.196.76"
+        "hostname": "brazil11050.discord.gg",
+        "ip": "35.215.202.129"
+    },
+    {
+        "hostname": "brazil11052.discord.gg",
+        "ip": "35.215.195.107"
     },
     {
         "hostname": "brazil11053.discord.gg",
@@ -524,8 +524,8 @@
         "ip": "35.215.234.37"
     },
     {
-        "hostname": "brazil11066.discord.gg",
-        "ip": "35.215.213.106"
+        "hostname": "brazil11065.discord.gg",
+        "ip": "35.215.239.119"
     },
     {
         "hostname": "brazil11067.discord.gg",
@@ -536,24 +536,12 @@
         "ip": "35.215.212.48"
     },
     {
-        "hostname": "brazil11069.discord.gg",
-        "ip": "35.215.227.51"
-    },
-    {
         "hostname": "brazil11070.discord.gg",
         "ip": "35.215.221.254"
     },
     {
         "hostname": "brazil11071.discord.gg",
         "ip": "35.215.219.112"
-    },
-    {
-        "hostname": "brazil11072.discord.gg",
-        "ip": "35.215.211.170"
-    },
-    {
-        "hostname": "brazil11073.discord.gg",
-        "ip": "35.215.209.104"
     },
     {
         "hostname": "brazil11074.discord.gg",
@@ -636,8 +624,8 @@
         "ip": "35.215.224.242"
     },
     {
-        "hostname": "brazil11094.discord.gg",
-        "ip": "35.215.212.214"
+        "hostname": "brazil11095.discord.gg",
+        "ip": "35.215.226.28"
     },
     {
         "hostname": "brazil11096.discord.gg",
@@ -660,12 +648,12 @@
         "ip": "35.215.207.145"
     },
     {
-        "hostname": "brazil11102.discord.gg",
-        "ip": "35.215.213.24"
+        "hostname": "brazil11101.discord.gg",
+        "ip": "35.215.208.21"
     },
     {
-        "hostname": "brazil11103.discord.gg",
-        "ip": "35.215.226.219"
+        "hostname": "brazil11102.discord.gg",
+        "ip": "35.215.213.24"
     },
     {
         "hostname": "brazil11104.discord.gg",
@@ -684,6 +672,10 @@
         "ip": "35.215.225.117"
     },
     {
+        "hostname": "brazil11108.discord.gg",
+        "ip": "35.215.241.169"
+    },
+    {
         "hostname": "brazil11109.discord.gg",
         "ip": "35.215.211.129"
     },
@@ -696,12 +688,20 @@
         "ip": "35.215.250.121"
     },
     {
+        "hostname": "brazil11112.discord.gg",
+        "ip": "35.215.218.158"
+    },
+    {
         "hostname": "brazil11113.discord.gg",
         "ip": "35.215.224.10"
     },
     {
         "hostname": "brazil11114.discord.gg",
         "ip": "35.215.218.57"
+    },
+    {
+        "hostname": "brazil11115.discord.gg",
+        "ip": "35.215.204.249"
     },
     {
         "hostname": "brazil11116.discord.gg",
@@ -718,6 +718,10 @@
     {
         "hostname": "brazil11119.discord.gg",
         "ip": "35.215.216.229"
+    },
+    {
+        "hostname": "brazil11120.discord.gg",
+        "ip": "35.215.251.1"
     },
     {
         "hostname": "brazil11121.discord.gg",
@@ -748,6 +752,10 @@
         "ip": "35.215.195.9"
     },
     {
+        "hostname": "brazil11128.discord.gg",
+        "ip": "35.215.254.217"
+    },
+    {
         "hostname": "brazil11129.discord.gg",
         "ip": "35.215.197.74"
     },
@@ -756,24 +764,8 @@
         "ip": "35.215.195.169"
     },
     {
-        "hostname": "brazil11131.discord.gg",
-        "ip": "35.215.205.94"
-    },
-    {
-        "hostname": "brazil11132.discord.gg",
-        "ip": "35.215.210.71"
-    },
-    {
-        "hostname": "brazil11133.discord.gg",
-        "ip": "35.215.211.173"
-    },
-    {
         "hostname": "brazil11134.discord.gg",
         "ip": "35.215.228.48"
-    },
-    {
-        "hostname": "brazil11135.discord.gg",
-        "ip": "35.215.247.144"
     },
     {
         "hostname": "brazil11136.discord.gg",
@@ -812,10 +804,6 @@
         "ip": "35.215.213.250"
     },
     {
-        "hostname": "brazil11145.discord.gg",
-        "ip": "35.215.204.214"
-    },
-    {
         "hostname": "brazil11146.discord.gg",
         "ip": "35.215.212.194"
     },
@@ -836,10 +824,6 @@
         "ip": "35.215.206.255"
     },
     {
-        "hostname": "brazil11151.discord.gg",
-        "ip": "35.215.219.224"
-    },
-    {
         "hostname": "brazil11152.discord.gg",
         "ip": "35.215.218.16"
     },
@@ -848,12 +832,12 @@
         "ip": "35.215.219.53"
     },
     {
-        "hostname": "brazil11154.discord.gg",
-        "ip": "35.215.214.87"
-    },
-    {
         "hostname": "brazil11155.discord.gg",
         "ip": "35.215.245.167"
+    },
+    {
+        "hostname": "brazil11156.discord.gg",
+        "ip": "35.215.211.242"
     },
     {
         "hostname": "brazil11157.discord.gg",
@@ -872,12 +856,8 @@
         "ip": "35.215.232.139"
     },
     {
-        "hostname": "brazil11163.discord.gg",
-        "ip": "35.215.245.193"
-    },
-    {
-        "hostname": "brazil11164.discord.gg",
-        "ip": "35.215.233.91"
+        "hostname": "brazil11162.discord.gg",
+        "ip": "35.215.197.24"
     },
     {
         "hostname": "brazil11165.discord.gg",
@@ -908,16 +888,8 @@
         "ip": "35.215.207.11"
     },
     {
-        "hostname": "brazil11172.discord.gg",
-        "ip": "35.215.201.125"
-    },
-    {
         "hostname": "brazil11173.discord.gg",
         "ip": "35.215.255.186"
-    },
-    {
-        "hostname": "brazil11174.discord.gg",
-        "ip": "35.215.228.217"
     },
     {
         "hostname": "brazil11175.discord.gg",
@@ -930,6 +902,10 @@
     {
         "hostname": "brazil11177.discord.gg",
         "ip": "35.215.203.113"
+    },
+    {
+        "hostname": "brazil11178.discord.gg",
+        "ip": "35.215.241.180"
     },
     {
         "hostname": "brazil11179.discord.gg",
@@ -948,10 +924,6 @@
         "ip": "35.215.230.89"
     },
     {
-        "hostname": "brazil11183.discord.gg",
-        "ip": "35.215.248.79"
-    },
-    {
         "hostname": "brazil11184.discord.gg",
         "ip": "35.215.193.63"
     },
@@ -964,12 +936,12 @@
         "ip": "35.215.222.165"
     },
     {
-        "hostname": "brazil11188.discord.gg",
-        "ip": "35.215.232.74"
+        "hostname": "brazil11187.discord.gg",
+        "ip": "35.215.214.71"
     },
     {
-        "hostname": "brazil11189.discord.gg",
-        "ip": "35.215.231.192"
+        "hostname": "brazil11188.discord.gg",
+        "ip": "35.215.232.74"
     },
     {
         "hostname": "brazil11190.discord.gg",
@@ -996,6 +968,10 @@
         "ip": "35.215.203.17"
     },
     {
+        "hostname": "brazil11196.discord.gg",
+        "ip": "35.215.210.156"
+    },
+    {
         "hostname": "brazil11197.discord.gg",
         "ip": "35.215.207.54"
     },
@@ -1008,8 +984,8 @@
         "ip": "35.215.253.118"
     },
     {
-        "hostname": "brazil11201.discord.gg",
-        "ip": "35.215.245.31"
+        "hostname": "brazil11200.discord.gg",
+        "ip": "35.215.215.14"
     },
     {
         "hostname": "brazil11202.discord.gg",
@@ -1020,16 +996,12 @@
         "ip": "35.215.214.252"
     },
     {
-        "hostname": "brazil11204.discord.gg",
-        "ip": "35.215.217.45"
-    },
-    {
-        "hostname": "brazil11205.discord.gg",
-        "ip": "35.215.215.196"
-    },
-    {
         "hostname": "brazil11206.discord.gg",
         "ip": "35.215.195.235"
+    },
+    {
+        "hostname": "brazil11207.discord.gg",
+        "ip": "35.215.250.41"
     },
     {
         "hostname": "brazil11208.discord.gg",
