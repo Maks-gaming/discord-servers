@@ -28,16 +28,20 @@
         "ip": "66.22.234.21"
     },
     {
-        "hostname": "santa-clara739.discord.gg",
-        "ip": "66.22.234.12"
-    },
-    {
         "hostname": "santa-clara914.discord.gg",
         "ip": "66.22.234.158"
     },
     {
+        "hostname": "santa-clara984.discord.gg",
+        "ip": "66.22.234.136"
+    },
+    {
         "hostname": "santa-clara996.discord.gg",
         "ip": "66.22.234.17"
+    },
+    {
+        "hostname": "santa-clara1517.discord.gg",
+        "ip": "66.22.234.28"
     },
     {
         "hostname": "santa-clara1603.discord.gg",
@@ -108,12 +112,16 @@
         "ip": "66.22.234.140"
     },
     {
-        "hostname": "santa-clara5072.discord.gg",
-        "ip": "66.22.234.14"
+        "hostname": "santa-clara4710.discord.gg",
+        "ip": "66.22.234.13"
     },
     {
         "hostname": "santa-clara5279.discord.gg",
         "ip": "66.22.234.152"
+    },
+    {
+        "hostname": "santa-clara5504.discord.gg",
+        "ip": "66.22.234.154"
     },
     {
         "hostname": "santa-clara5742.discord.gg",
@@ -124,20 +132,12 @@
         "ip": "66.22.234.132"
     },
     {
-        "hostname": "santa-clara5937.discord.gg",
-        "ip": "66.22.234.4"
-    },
-    {
         "hostname": "santa-clara6075.discord.gg",
         "ip": "66.22.234.7"
     },
     {
         "hostname": "santa-clara6188.discord.gg",
         "ip": "66.22.234.133"
-    },
-    {
-        "hostname": "santa-clara6201.discord.gg",
-        "ip": "66.22.234.157"
     },
     {
         "hostname": "santa-clara6793.discord.gg",
@@ -168,10 +168,6 @@
         "ip": "66.22.234.10"
     },
     {
-        "hostname": "santa-clara7705.discord.gg",
-        "ip": "66.22.234.9"
-    },
-    {
         "hostname": "santa-clara8257.discord.gg",
         "ip": "66.22.234.145"
     },
@@ -182,5 +178,9 @@
     {
         "hostname": "santa-clara9480.discord.gg",
         "ip": "66.22.234.139"
+    },
+    {
+        "hostname": "santa-clara9905.discord.gg",
+        "ip": "66.22.234.137"
     }
 ]
