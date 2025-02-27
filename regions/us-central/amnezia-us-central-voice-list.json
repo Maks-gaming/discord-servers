@@ -28,20 +28,12 @@
         "ip": "66.22.204.183"
     },
     {
-        "hostname": "us-central659.discord.gg",
-        "ip": "66.22.204.20"
-    },
-    {
         "hostname": "us-central746.discord.gg",
         "ip": "66.22.204.171"
     },
     {
         "hostname": "us-central1067.discord.gg",
         "ip": "66.22.204.178"
-    },
-    {
-        "hostname": "us-central1119.discord.gg",
-        "ip": "66.22.206.35"
     },
     {
         "hostname": "us-central1194.discord.gg",
@@ -54,6 +46,10 @@
     {
         "hostname": "us-central1273.discord.gg",
         "ip": "66.22.204.18"
+    },
+    {
+        "hostname": "us-central1412.discord.gg",
+        "ip": "138.128.140.244"
     },
     {
         "hostname": "us-central1459.discord.gg",
@@ -70,6 +66,10 @@
     {
         "hostname": "us-central1710.discord.gg",
         "ip": "138.128.140.249"
+    },
+    {
+        "hostname": "us-central1835.discord.gg",
+        "ip": "66.22.204.170"
     },
     {
         "hostname": "us-central1895.discord.gg",
@@ -176,10 +176,6 @@
         "ip": "66.22.206.172"
     },
     {
-        "hostname": "us-central4187.discord.gg",
-        "ip": "66.22.206.18"
-    },
-    {
         "hostname": "us-central4293.discord.gg",
         "ip": "66.22.206.34"
     },
@@ -190,14 +186,6 @@
     {
         "hostname": "us-central4383.discord.gg",
         "ip": "66.22.204.17"
-    },
-    {
-        "hostname": "us-central4421.discord.gg",
-        "ip": "66.22.206.15"
-    },
-    {
-        "hostname": "us-central4518.discord.gg",
-        "ip": "66.22.204.186"
     },
     {
         "hostname": "us-central4565.discord.gg",
@@ -272,12 +260,12 @@
         "ip": "66.22.206.164"
     },
     {
-        "hostname": "us-central6509.discord.gg",
-        "ip": "66.22.206.36"
-    },
-    {
         "hostname": "us-central6561.discord.gg",
         "ip": "66.22.206.180"
+    },
+    {
+        "hostname": "us-central6829.discord.gg",
+        "ip": "66.22.204.167"
     },
     {
         "hostname": "us-central6988.discord.gg",
@@ -316,10 +304,6 @@
         "ip": "66.22.206.171"
     },
     {
-        "hostname": "us-central8391.discord.gg",
-        "ip": "66.22.206.11"
-    },
-    {
         "hostname": "us-central8409.discord.gg",
         "ip": "66.22.206.174"
     },
@@ -330,6 +314,10 @@
     {
         "hostname": "us-central8828.discord.gg",
         "ip": "66.22.206.161"
+    },
+    {
+        "hostname": "us-central8865.discord.gg",
+        "ip": "66.22.204.184"
     },
     {
         "hostname": "us-central8875.discord.gg",
