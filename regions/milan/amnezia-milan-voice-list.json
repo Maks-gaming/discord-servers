@@ -12,16 +12,8 @@
         "ip": "66.22.238.35"
     },
     {
-        "hostname": "milan1643.discord.gg",
-        "ip": "66.22.238.147"
-    },
-    {
         "hostname": "milan2028.discord.gg",
         "ip": "66.22.238.9"
-    },
-    {
-        "hostname": "milan2079.discord.gg",
-        "ip": "66.22.238.18"
     },
     {
         "hostname": "milan2344.discord.gg",
@@ -96,24 +88,16 @@
         "ip": "66.22.238.8"
     },
     {
-        "hostname": "milan5970.discord.gg",
-        "ip": "66.22.238.157"
+        "hostname": "milan5886.discord.gg",
+        "ip": "66.22.238.135"
     },
     {
-        "hostname": "milan6222.discord.gg",
-        "ip": "66.22.238.142"
+        "hostname": "milan5936.discord.gg",
+        "ip": "66.22.238.137"
     },
     {
         "hostname": "milan6292.discord.gg",
         "ip": "66.22.238.25"
-    },
-    {
-        "hostname": "milan6477.discord.gg",
-        "ip": "66.22.238.21"
-    },
-    {
-        "hostname": "milan6851.discord.gg",
-        "ip": "66.22.238.40"
     },
     {
         "hostname": "milan6945.discord.gg",
@@ -122,6 +106,10 @@
     {
         "hostname": "milan7551.discord.gg",
         "ip": "66.22.238.159"
+    },
+    {
+        "hostname": "milan8273.discord.gg",
+        "ip": "66.22.238.36"
     },
     {
         "hostname": "milan8328.discord.gg",
@@ -152,10 +140,6 @@
         "ip": "66.22.238.149"
     },
     {
-        "hostname": "milan9894.discord.gg",
-        "ip": "66.22.238.162"
-    },
-    {
         "hostname": "milan9948.discord.gg",
         "ip": "66.22.238.136"
     },
@@ -164,12 +148,20 @@
         "ip": "35.219.229.187"
     },
     {
+        "hostname": "milan10001.discord.gg",
+        "ip": "35.219.239.85"
+    },
+    {
+        "hostname": "milan10002.discord.gg",
+        "ip": "35.219.231.131"
+    },
+    {
         "hostname": "milan10003.discord.gg",
         "ip": "35.219.243.191"
     },
     {
-        "hostname": "milan10005.discord.gg",
-        "ip": "35.219.235.195"
+        "hostname": "milan10004.discord.gg",
+        "ip": "35.219.226.57"
     },
     {
         "hostname": "milan10006.discord.gg",
@@ -192,16 +184,16 @@
         "ip": "35.219.225.149"
     },
     {
+        "hostname": "milan10011.discord.gg",
+        "ip": "35.219.228.37"
+    },
+    {
         "hostname": "milan10012.discord.gg",
         "ip": "35.219.227.31"
     },
     {
         "hostname": "milan10013.discord.gg",
         "ip": "35.219.252.135"
-    },
-    {
-        "hostname": "milan10014.discord.gg",
-        "ip": "35.219.245.45"
     },
     {
         "hostname": "milan10015.discord.gg",
@@ -248,6 +240,10 @@
         "ip": "35.219.254.197"
     },
     {
+        "hostname": "milan10026.discord.gg",
+        "ip": "35.219.235.32"
+    },
+    {
         "hostname": "milan10027.discord.gg",
         "ip": "35.219.238.115"
     },
@@ -256,8 +252,8 @@
         "ip": "35.219.252.64"
     },
     {
-        "hostname": "milan10029.discord.gg",
-        "ip": "35.219.247.35"
+        "hostname": "milan10030.discord.gg",
+        "ip": "35.219.247.14"
     },
     {
         "hostname": "milan10031.discord.gg",
@@ -276,20 +272,12 @@
         "ip": "35.219.235.98"
     },
     {
-        "hostname": "milan10035.discord.gg",
-        "ip": "35.219.244.1"
-    },
-    {
         "hostname": "milan10036.discord.gg",
         "ip": "35.219.253.218"
     },
     {
         "hostname": "milan10037.discord.gg",
         "ip": "35.219.235.248"
-    },
-    {
-        "hostname": "milan10038.discord.gg",
-        "ip": "35.219.231.247"
     },
     {
         "hostname": "milan10039.discord.gg",
@@ -318,5 +306,9 @@
     {
         "hostname": "milan10045.discord.gg",
         "ip": "35.219.251.186"
+    },
+    {
+        "hostname": "milan10046.discord.gg",
+        "ip": "35.219.230.51"
     }
 ]
