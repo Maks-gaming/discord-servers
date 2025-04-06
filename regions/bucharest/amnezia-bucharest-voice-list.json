@@ -12,6 +12,10 @@
         "ip": "66.22.244.158"
     },
     {
+        "hostname": "bucharest1071.discord.gg",
+        "ip": "66.22.244.133"
+    },
+    {
         "hostname": "bucharest1272.discord.gg",
         "ip": "66.22.244.143"
     },
@@ -26,10 +30,6 @@
     {
         "hostname": "bucharest1552.discord.gg",
         "ip": "66.22.244.34"
-    },
-    {
-        "hostname": "bucharest1590.discord.gg",
-        "ip": "66.22.244.43"
     },
     {
         "hostname": "bucharest1729.discord.gg",
@@ -132,10 +132,6 @@
         "ip": "66.22.244.45"
     },
     {
-        "hostname": "bucharest5368.discord.gg",
-        "ip": "66.22.244.44"
-    },
-    {
         "hostname": "bucharest5485.discord.gg",
         "ip": "66.22.244.15"
     },
@@ -148,16 +144,16 @@
         "ip": "66.22.244.142"
     },
     {
-        "hostname": "bucharest6032.discord.gg",
-        "ip": "66.22.244.141"
-    },
-    {
         "hostname": "bucharest6196.discord.gg",
         "ip": "66.22.244.171"
     },
     {
         "hostname": "bucharest6542.discord.gg",
         "ip": "66.22.244.139"
+    },
+    {
+        "hostname": "bucharest6664.discord.gg",
+        "ip": "66.22.244.13"
     },
     {
         "hostname": "bucharest6907.discord.gg",
@@ -176,8 +172,8 @@
         "ip": "66.22.244.42"
     },
     {
-        "hostname": "bucharest7292.discord.gg",
-        "ip": "66.22.244.137"
+        "hostname": "bucharest7479.discord.gg",
+        "ip": "66.22.244.160"
     },
     {
         "hostname": "bucharest7511.discord.gg",
@@ -196,10 +192,6 @@
         "ip": "66.22.244.37"
     },
     {
-        "hostname": "bucharest8178.discord.gg",
-        "ip": "66.22.244.16"
-    },
-    {
         "hostname": "bucharest8185.discord.gg",
         "ip": "66.22.244.46"
     },
@@ -210,10 +202,6 @@
     {
         "hostname": "bucharest8668.discord.gg",
         "ip": "66.22.244.36"
-    },
-    {
-        "hostname": "bucharest8756.discord.gg",
-        "ip": "66.22.244.38"
     },
     {
         "hostname": "bucharest8992.discord.gg",
@@ -246,13 +234,5 @@
     {
         "hostname": "bucharest9765.discord.gg",
         "ip": "66.22.244.8"
-    },
-    {
-        "hostname": "bucharest9851.discord.gg",
-        "ip": "66.22.244.153"
-    },
-    {
-        "hostname": "bucharest9974.discord.gg",
-        "ip": "66.22.244.132"
     }
 ]
