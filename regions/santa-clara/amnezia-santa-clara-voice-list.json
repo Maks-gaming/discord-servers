@@ -1,5 +1,9 @@
 [
     {
+        "hostname": "santa-clara247.discord.gg",
+        "ip": "66.22.234.149"
+    },
+    {
         "hostname": "santa-clara248.discord.gg",
         "ip": "66.22.234.25"
     },
@@ -24,12 +28,20 @@
         "ip": "66.22.234.21"
     },
     {
+        "hostname": "santa-clara739.discord.gg",
+        "ip": "66.22.234.12"
+    },
+    {
         "hostname": "santa-clara914.discord.gg",
         "ip": "66.22.234.158"
     },
     {
         "hostname": "santa-clara984.discord.gg",
         "ip": "66.22.234.136"
+    },
+    {
+        "hostname": "santa-clara996.discord.gg",
+        "ip": "66.22.234.17"
     },
     {
         "hostname": "santa-clara1517.discord.gg",
@@ -52,10 +64,6 @@
         "ip": "66.22.234.135"
     },
     {
-        "hostname": "santa-clara2419.discord.gg",
-        "ip": "66.22.234.20"
-    },
-    {
         "hostname": "santa-clara2632.discord.gg",
         "ip": "66.22.234.146"
     },
@@ -72,16 +80,12 @@
         "ip": "66.22.234.26"
     },
     {
-        "hostname": "santa-clara3251.discord.gg",
-        "ip": "66.22.234.16"
+        "hostname": "santa-clara3525.discord.gg",
+        "ip": "66.22.234.15"
     },
     {
         "hostname": "santa-clara3639.discord.gg",
         "ip": "66.22.234.11"
-    },
-    {
-        "hostname": "santa-clara3692.discord.gg",
-        "ip": "66.22.234.151"
     },
     {
         "hostname": "santa-clara3755.discord.gg",
@@ -94,10 +98,6 @@
     {
         "hostname": "santa-clara4145.discord.gg",
         "ip": "66.22.234.144"
-    },
-    {
-        "hostname": "santa-clara4215.discord.gg",
-        "ip": "66.22.234.147"
     },
     {
         "hostname": "santa-clara4454.discord.gg",
@@ -186,9 +186,5 @@
     {
         "hostname": "santa-clara9480.discord.gg",
         "ip": "66.22.234.139"
-    },
-    {
-        "hostname": "santa-clara9905.discord.gg",
-        "ip": "66.22.234.137"
     }
 ]
