@@ -16,6 +16,10 @@
         "ip": "66.22.233.32"
     },
     {
+        "hostname": "santiago1481.discord.gg",
+        "ip": "66.22.233.144"
+    },
+    {
         "hostname": "santiago1789.discord.gg",
         "ip": "66.22.233.153"
     },
@@ -36,10 +40,6 @@
         "ip": "66.22.233.184"
     },
     {
-        "hostname": "santiago3155.discord.gg",
-        "ip": "66.22.233.22"
-    },
-    {
         "hostname": "santiago3524.discord.gg",
         "ip": "66.22.233.189"
     },
@@ -58,10 +58,6 @@
     {
         "hostname": "santiago5766.discord.gg",
         "ip": "66.22.233.166"
-    },
-    {
-        "hostname": "santiago6083.discord.gg",
-        "ip": "66.22.233.18"
     },
     {
         "hostname": "santiago6225.discord.gg",
@@ -92,8 +88,16 @@
         "ip": "34.0.52.253"
     },
     {
+        "hostname": "santiago10002.discord.gg",
+        "ip": "34.0.48.0"
+    },
+    {
         "hostname": "santiago10003.discord.gg",
         "ip": "34.0.51.231"
+    },
+    {
+        "hostname": "santiago10004.discord.gg",
+        "ip": "34.0.53.191"
     },
     {
         "hostname": "santiago10005.discord.gg",
@@ -156,6 +160,10 @@
         "ip": "34.0.62.171"
     },
     {
+        "hostname": "santiago10020.discord.gg",
+        "ip": "34.0.57.83"
+    },
+    {
         "hostname": "santiago10021.discord.gg",
         "ip": "34.0.52.125"
     },
@@ -204,10 +212,6 @@
         "ip": "34.0.51.49"
     },
     {
-        "hostname": "santiago10033.discord.gg",
-        "ip": "34.0.53.3"
-    },
-    {
         "hostname": "santiago10034.discord.gg",
         "ip": "34.0.48.184"
     },
@@ -244,8 +248,8 @@
         "ip": "34.0.62.187"
     },
     {
-        "hostname": "santiago10043.discord.gg",
-        "ip": "34.0.56.70"
+        "hostname": "santiago10044.discord.gg",
+        "ip": "34.0.59.180"
     },
     {
         "hostname": "santiago10045.discord.gg",
@@ -264,15 +268,7 @@
         "ip": "34.0.55.83"
     },
     {
-        "hostname": "santiago10049.discord.gg",
-        "ip": "34.0.51.67"
-    },
-    {
         "hostname": "santiago10050.discord.gg",
         "ip": "34.0.60.118"
-    },
-    {
-        "hostname": "santiago10051.discord.gg",
-        "ip": "34.0.48.108"
     }
 ]
