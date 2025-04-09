@@ -24,10 +24,6 @@
         "ip": "66.22.230.5"
     },
     {
-        "hostname": "seattle1430.discord.gg",
-        "ip": "66.22.230.36"
-    },
-    {
         "hostname": "seattle1475.discord.gg",
         "ip": "66.22.230.6"
     },
@@ -76,8 +72,16 @@
         "ip": "66.22.230.47"
     },
     {
+        "hostname": "seattle2527.discord.gg",
+        "ip": "66.22.230.151"
+    },
+    {
         "hostname": "seattle2732.discord.gg",
         "ip": "66.22.230.148"
+    },
+    {
+        "hostname": "seattle2780.discord.gg",
+        "ip": "66.22.230.171"
     },
     {
         "hostname": "seattle2845.discord.gg",
@@ -100,10 +104,6 @@
         "ip": "66.22.230.50"
     },
     {
-        "hostname": "seattle3332.discord.gg",
-        "ip": "66.22.230.170"
-    },
-    {
         "hostname": "seattle3342.discord.gg",
         "ip": "66.22.230.52"
     },
@@ -124,10 +124,6 @@
         "ip": "66.22.230.25"
     },
     {
-        "hostname": "seattle3989.discord.gg",
-        "ip": "66.22.230.133"
-    },
-    {
         "hostname": "seattle4330.discord.gg",
         "ip": "66.22.230.140"
     },
@@ -144,6 +140,10 @@
         "ip": "66.22.230.8"
     },
     {
+        "hostname": "seattle4923.discord.gg",
+        "ip": "66.22.230.169"
+    },
+    {
         "hostname": "seattle4972.discord.gg",
         "ip": "66.22.230.24"
     },
@@ -156,12 +156,20 @@
         "ip": "66.22.230.20"
     },
     {
-        "hostname": "seattle5622.discord.gg",
-        "ip": "66.22.230.155"
+        "hostname": "seattle5805.discord.gg",
+        "ip": "66.22.230.38"
     },
     {
         "hostname": "seattle5872.discord.gg",
         "ip": "66.22.230.37"
+    },
+    {
+        "hostname": "seattle5902.discord.gg",
+        "ip": "66.22.230.29"
+    },
+    {
+        "hostname": "seattle5906.discord.gg",
+        "ip": "66.22.230.46"
     },
     {
         "hostname": "seattle6012.discord.gg",
@@ -204,10 +212,6 @@
         "ip": "66.22.230.41"
     },
     {
-        "hostname": "seattle6933.discord.gg",
-        "ip": "66.22.230.9"
-    },
-    {
         "hostname": "seattle6973.discord.gg",
         "ip": "66.22.230.149"
     },
@@ -234,6 +238,14 @@
     {
         "hostname": "seattle7364.discord.gg",
         "ip": "66.22.230.23"
+    },
+    {
+        "hostname": "seattle7420.discord.gg",
+        "ip": "66.22.230.4"
+    },
+    {
+        "hostname": "seattle7450.discord.gg",
+        "ip": "66.22.230.165"
     },
     {
         "hostname": "seattle7551.discord.gg",
@@ -264,12 +276,12 @@
         "ip": "66.22.230.27"
     },
     {
-        "hostname": "seattle8642.discord.gg",
-        "ip": "66.22.230.132"
+        "hostname": "seattle8447.discord.gg",
+        "ip": "66.22.230.167"
     },
     {
-        "hostname": "seattle8645.discord.gg",
-        "ip": "66.22.230.30"
+        "hostname": "seattle8642.discord.gg",
+        "ip": "66.22.230.132"
     },
     {
         "hostname": "seattle8685.discord.gg",
@@ -294,14 +306,6 @@
     {
         "hostname": "seattle9385.discord.gg",
         "ip": "66.22.230.146"
-    },
-    {
-        "hostname": "seattle9546.discord.gg",
-        "ip": "66.22.230.11"
-    },
-    {
-        "hostname": "seattle9566.discord.gg",
-        "ip": "66.22.230.42"
     },
     {
         "hostname": "seattle9661.discord.gg",
