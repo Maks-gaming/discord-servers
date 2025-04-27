@@ -1,5 +1,13 @@
 [
     {
+        "hostname": "hongkong11000.discord.gg",
+        "ip": "35.215.149.186"
+    },
+    {
+        "hostname": "hongkong11001.discord.gg",
+        "ip": "35.215.152.150"
+    },
+    {
         "hostname": "hongkong11002.discord.gg",
         "ip": "35.215.139.130"
     },
@@ -36,16 +44,16 @@
         "ip": "35.215.145.76"
     },
     {
-        "hostname": "hongkong11011.discord.gg",
-        "ip": "35.215.151.127"
-    },
-    {
         "hostname": "hongkong11012.discord.gg",
         "ip": "35.215.140.62"
     },
     {
         "hostname": "hongkong11013.discord.gg",
         "ip": "35.215.138.4"
+    },
+    {
+        "hostname": "hongkong11014.discord.gg",
+        "ip": "35.215.138.188"
     },
     {
         "hostname": "hongkong11015.discord.gg",
@@ -68,12 +76,20 @@
         "ip": "35.215.140.14"
     },
     {
+        "hostname": "hongkong11020.discord.gg",
+        "ip": "35.215.141.82"
+    },
+    {
         "hostname": "hongkong11021.discord.gg",
         "ip": "35.215.142.0"
     },
     {
         "hostname": "hongkong11022.discord.gg",
         "ip": "35.215.185.64"
+    },
+    {
+        "hostname": "hongkong11023.discord.gg",
+        "ip": "35.215.154.245"
     },
     {
         "hostname": "hongkong11024.discord.gg",
@@ -104,16 +120,16 @@
         "ip": "35.215.128.82"
     },
     {
-        "hostname": "hongkong11031.discord.gg",
-        "ip": "35.215.174.20"
-    },
-    {
         "hostname": "hongkong11032.discord.gg",
         "ip": "35.215.166.242"
     },
     {
         "hostname": "hongkong11033.discord.gg",
         "ip": "35.215.186.99"
+    },
+    {
+        "hostname": "hongkong11034.discord.gg",
+        "ip": "35.215.156.161"
     },
     {
         "hostname": "hongkong11035.discord.gg",
@@ -152,10 +168,6 @@
         "ip": "35.215.151.119"
     },
     {
-        "hostname": "hongkong11044.discord.gg",
-        "ip": "35.215.190.110"
-    },
-    {
         "hostname": "hongkong11045.discord.gg",
         "ip": "35.215.128.17"
     },
@@ -172,24 +184,12 @@
         "ip": "35.215.178.27"
     },
     {
-        "hostname": "hongkong11049.discord.gg",
-        "ip": "35.215.180.66"
-    },
-    {
-        "hostname": "hongkong11050.discord.gg",
-        "ip": "35.215.159.122"
-    },
-    {
         "hostname": "hongkong11051.discord.gg",
         "ip": "35.215.134.20"
     },
     {
         "hostname": "hongkong11052.discord.gg",
         "ip": "35.215.137.92"
-    },
-    {
-        "hostname": "hongkong11053.discord.gg",
-        "ip": "35.215.179.161"
     },
     {
         "hostname": "hongkong11054.discord.gg",
@@ -288,8 +288,16 @@
         "ip": "35.215.140.217"
     },
     {
+        "hostname": "hongkong11078.discord.gg",
+        "ip": "35.215.143.83"
+    },
+    {
         "hostname": "hongkong11079.discord.gg",
         "ip": "35.215.144.227"
+    },
+    {
+        "hostname": "hongkong11080.discord.gg",
+        "ip": "35.215.164.206"
     },
     {
         "hostname": "hongkong11081.discord.gg",
@@ -304,10 +312,6 @@
         "ip": "35.215.158.88"
     },
     {
-        "hostname": "hongkong11084.discord.gg",
-        "ip": "35.215.186.56"
-    },
-    {
         "hostname": "hongkong11085.discord.gg",
         "ip": "35.215.172.62"
     },
@@ -320,8 +324,8 @@
         "ip": "35.215.130.27"
     },
     {
-        "hostname": "hongkong11089.discord.gg",
-        "ip": "35.215.164.77"
+        "hostname": "hongkong11088.discord.gg",
+        "ip": "35.215.182.48"
     },
     {
         "hostname": "hongkong11090.discord.gg",
@@ -340,8 +344,8 @@
         "ip": "35.215.154.252"
     },
     {
-        "hostname": "hongkong11095.discord.gg",
-        "ip": "35.215.134.100"
+        "hostname": "hongkong11094.discord.gg",
+        "ip": "35.215.137.207"
     },
     {
         "hostname": "hongkong11096.discord.gg",
@@ -352,32 +356,12 @@
         "ip": "35.215.176.164"
     },
     {
-        "hostname": "hongkong11098.discord.gg",
-        "ip": "35.215.136.46"
-    },
-    {
-        "hostname": "hongkong11099.discord.gg",
-        "ip": "35.215.138.109"
-    },
-    {
         "hostname": "hongkong11100.discord.gg",
         "ip": "35.215.145.104"
     },
     {
-        "hostname": "hongkong11101.discord.gg",
-        "ip": "35.215.165.236"
-    },
-    {
         "hostname": "hongkong11102.discord.gg",
         "ip": "35.215.186.91"
-    },
-    {
-        "hostname": "hongkong11103.discord.gg",
-        "ip": "35.215.175.136"
-    },
-    {
-        "hostname": "hongkong11104.discord.gg",
-        "ip": "35.215.158.87"
     },
     {
         "hostname": "hongkong11105.discord.gg",
@@ -386,6 +370,10 @@
     {
         "hostname": "hongkong11106.discord.gg",
         "ip": "35.215.187.91"
+    },
+    {
+        "hostname": "hongkong11107.discord.gg",
+        "ip": "35.215.159.62"
     },
     {
         "hostname": "hongkong11108.discord.gg",
@@ -444,10 +432,6 @@
         "ip": "35.215.147.86"
     },
     {
-        "hostname": "hongkong11122.discord.gg",
-        "ip": "35.215.150.16"
-    },
-    {
         "hostname": "hongkong11123.discord.gg",
         "ip": "35.215.140.7"
     },
@@ -476,20 +460,8 @@
         "ip": "35.215.161.11"
     },
     {
-        "hostname": "hongkong11130.discord.gg",
-        "ip": "35.215.132.50"
-    },
-    {
         "hostname": "hongkong11131.discord.gg",
         "ip": "35.215.139.16"
-    },
-    {
-        "hostname": "hongkong11132.discord.gg",
-        "ip": "35.215.191.61"
-    },
-    {
-        "hostname": "hongkong11133.discord.gg",
-        "ip": "35.215.133.140"
     },
     {
         "hostname": "hongkong11134.discord.gg",
@@ -498,6 +470,10 @@
     {
         "hostname": "hongkong11135.discord.gg",
         "ip": "35.215.161.215"
+    },
+    {
+        "hostname": "hongkong11136.discord.gg",
+        "ip": "35.215.164.210"
     },
     {
         "hostname": "hongkong11137.discord.gg",
@@ -510,10 +486,6 @@
     {
         "hostname": "hongkong11139.discord.gg",
         "ip": "35.215.188.178"
-    },
-    {
-        "hostname": "hongkong11140.discord.gg",
-        "ip": "35.215.178.140"
     },
     {
         "hostname": "hongkong11141.discord.gg",
@@ -546,6 +518,10 @@
     {
         "hostname": "hongkong11148.discord.gg",
         "ip": "35.215.178.250"
+    },
+    {
+        "hostname": "hongkong11149.discord.gg",
+        "ip": "35.215.174.209"
     },
     {
         "hostname": "hongkong11150.discord.gg",
@@ -616,6 +592,10 @@
         "ip": "35.215.176.207"
     },
     {
+        "hostname": "hongkong11167.discord.gg",
+        "ip": "35.215.171.225"
+    },
+    {
         "hostname": "hongkong11168.discord.gg",
         "ip": "35.215.149.27"
     },
@@ -626,10 +606,6 @@
     {
         "hostname": "hongkong11170.discord.gg",
         "ip": "35.215.131.84"
-    },
-    {
-        "hostname": "hongkong11171.discord.gg",
-        "ip": "35.215.163.246"
     },
     {
         "hostname": "hongkong11172.discord.gg",
@@ -644,10 +620,6 @@
         "ip": "35.215.132.16"
     },
     {
-        "hostname": "hongkong11175.discord.gg",
-        "ip": "35.215.163.155"
-    },
-    {
         "hostname": "hongkong11176.discord.gg",
         "ip": "35.215.151.224"
     },
@@ -658,10 +630,6 @@
     {
         "hostname": "hongkong11178.discord.gg",
         "ip": "35.215.130.215"
-    },
-    {
-        "hostname": "hongkong11179.discord.gg",
-        "ip": "35.215.180.1"
     },
     {
         "hostname": "hongkong11180.discord.gg",
@@ -680,8 +648,16 @@
         "ip": "35.215.142.124"
     },
     {
+        "hostname": "hongkong11184.discord.gg",
+        "ip": "35.215.189.9"
+    },
+    {
         "hostname": "hongkong11185.discord.gg",
         "ip": "35.215.153.203"
+    },
+    {
+        "hostname": "hongkong11186.discord.gg",
+        "ip": "35.215.180.23"
     },
     {
         "hostname": "hongkong11187.discord.gg",
@@ -710,6 +686,10 @@
     {
         "hostname": "hongkong11193.discord.gg",
         "ip": "35.215.135.74"
+    },
+    {
+        "hostname": "hongkong11194.discord.gg",
+        "ip": "35.215.153.180"
     },
     {
         "hostname": "hongkong11195.discord.gg",
