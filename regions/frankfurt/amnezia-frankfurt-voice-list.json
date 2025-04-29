@@ -72,8 +72,8 @@
         "ip": "66.22.243.151"
     },
     {
-        "hostname": "frankfurt1656.discord.gg",
-        "ip": "66.22.243.64"
+        "hostname": "frankfurt1696.discord.gg",
+        "ip": "66.22.243.147"
     },
     {
         "hostname": "frankfurt1699.discord.gg",
@@ -90,6 +90,10 @@
     {
         "hostname": "frankfurt2034.discord.gg",
         "ip": "66.22.243.31"
+    },
+    {
+        "hostname": "frankfurt2157.discord.gg",
+        "ip": "66.22.243.191"
     },
     {
         "hostname": "frankfurt2246.discord.gg",
@@ -152,8 +156,8 @@
         "ip": "66.22.243.182"
     },
     {
-        "hostname": "frankfurt3701.discord.gg",
-        "ip": "66.22.243.168"
+        "hostname": "frankfurt3916.discord.gg",
+        "ip": "66.22.243.9"
     },
     {
         "hostname": "frankfurt3959.discord.gg",
@@ -170,10 +174,6 @@
     {
         "hostname": "frankfurt4201.discord.gg",
         "ip": "66.22.243.166"
-    },
-    {
-        "hostname": "frankfurt4302.discord.gg",
-        "ip": "66.22.243.170"
     },
     {
         "hostname": "frankfurt4327.discord.gg",
@@ -212,16 +212,20 @@
         "ip": "66.22.243.52"
     },
     {
-        "hostname": "frankfurt4955.discord.gg",
-        "ip": "66.22.243.35"
-    },
-    {
         "hostname": "frankfurt5049.discord.gg",
         "ip": "66.22.243.185"
     },
     {
+        "hostname": "frankfurt5081.discord.gg",
+        "ip": "66.22.243.138"
+    },
+    {
         "hostname": "frankfurt5219.discord.gg",
         "ip": "66.22.243.152"
+    },
+    {
+        "hostname": "frankfurt5297.discord.gg",
+        "ip": "66.22.243.24"
     },
     {
         "hostname": "frankfurt5322.discord.gg",
@@ -244,12 +248,12 @@
         "ip": "66.22.243.163"
     },
     {
-        "hostname": "frankfurt6047.discord.gg",
-        "ip": "66.22.243.48"
+        "hostname": "frankfurt6000.discord.gg",
+        "ip": "66.22.243.43"
     },
     {
-        "hostname": "frankfurt6188.discord.gg",
-        "ip": "66.22.243.172"
+        "hostname": "frankfurt6047.discord.gg",
+        "ip": "66.22.243.48"
     },
     {
         "hostname": "frankfurt6391.discord.gg",
@@ -268,16 +272,8 @@
         "ip": "66.22.243.28"
     },
     {
-        "hostname": "frankfurt6753.discord.gg",
-        "ip": "66.22.243.22"
-    },
-    {
         "hostname": "frankfurt6763.discord.gg",
         "ip": "66.22.243.178"
-    },
-    {
-        "hostname": "frankfurt6770.discord.gg",
-        "ip": "66.22.243.59"
     },
     {
         "hostname": "frankfurt6966.discord.gg",
@@ -318,6 +314,10 @@
     {
         "hostname": "frankfurt7537.discord.gg",
         "ip": "66.22.243.23"
+    },
+    {
+        "hostname": "frankfurt7848.discord.gg",
+        "ip": "66.22.243.16"
     },
     {
         "hostname": "frankfurt7869.discord.gg",
@@ -364,10 +364,6 @@
         "ip": "66.22.243.174"
     },
     {
-        "hostname": "frankfurt8784.discord.gg",
-        "ip": "66.22.243.29"
-    },
-    {
         "hostname": "frankfurt8990.discord.gg",
         "ip": "66.22.243.156"
     },
@@ -382,6 +378,14 @@
     {
         "hostname": "frankfurt9654.discord.gg",
         "ip": "66.22.243.55"
+    },
+    {
+        "hostname": "frankfurt9728.discord.gg",
+        "ip": "66.22.243.155"
+    },
+    {
+        "hostname": "frankfurt9970.discord.gg",
+        "ip": "66.22.243.139"
     },
     {
         "hostname": "frankfurt9985.discord.gg",
@@ -410,10 +414,6 @@
     {
         "hostname": "frankfurt10005.discord.gg",
         "ip": "35.207.174.55"
-    },
-    {
-        "hostname": "frankfurt10006.discord.gg",
-        "ip": "35.207.139.43"
     },
     {
         "hostname": "frankfurt10007.discord.gg",
@@ -452,6 +452,10 @@
         "ip": "35.207.81.249"
     },
     {
+        "hostname": "frankfurt10016.discord.gg",
+        "ip": "35.207.167.161"
+    },
+    {
         "hostname": "frankfurt10017.discord.gg",
         "ip": "35.207.139.211"
     },
@@ -468,8 +472,8 @@
         "ip": "35.207.104.202"
     },
     {
-        "hostname": "frankfurt10022.discord.gg",
-        "ip": "35.207.189.58"
+        "hostname": "frankfurt10021.discord.gg",
+        "ip": "35.207.110.175"
     },
     {
         "hostname": "frankfurt10023.discord.gg",
@@ -508,14 +512,6 @@
         "ip": "35.207.82.54"
     },
     {
-        "hostname": "frankfurt10032.discord.gg",
-        "ip": "35.207.171.99"
-    },
-    {
-        "hostname": "frankfurt10033.discord.gg",
-        "ip": "35.207.143.121"
-    },
-    {
         "hostname": "frankfurt10034.discord.gg",
         "ip": "35.207.147.245"
     },
@@ -526,6 +522,10 @@
     {
         "hostname": "frankfurt10036.discord.gg",
         "ip": "35.207.172.68"
+    },
+    {
+        "hostname": "frankfurt10037.discord.gg",
+        "ip": "35.207.129.199"
     },
     {
         "hostname": "frankfurt10038.discord.gg",
@@ -544,10 +544,6 @@
         "ip": "35.207.106.188"
     },
     {
-        "hostname": "frankfurt10042.discord.gg",
-        "ip": "35.207.157.7"
-    },
-    {
         "hostname": "frankfurt10043.discord.gg",
         "ip": "35.207.114.16"
     },
@@ -564,10 +560,6 @@
         "ip": "35.207.144.0"
     },
     {
-        "hostname": "frankfurt10047.discord.gg",
-        "ip": "35.207.158.192"
-    },
-    {
         "hostname": "frankfurt10048.discord.gg",
         "ip": "35.207.79.34"
     },
@@ -582,6 +574,10 @@
     {
         "hostname": "frankfurt10051.discord.gg",
         "ip": "35.207.132.247"
+    },
+    {
+        "hostname": "frankfurt10052.discord.gg",
+        "ip": "35.207.145.63"
     },
     {
         "hostname": "frankfurt10053.discord.gg",
@@ -616,6 +612,14 @@
         "ip": "35.207.103.112"
     },
     {
+        "hostname": "frankfurt10061.discord.gg",
+        "ip": "35.207.155.216"
+    },
+    {
+        "hostname": "frankfurt10062.discord.gg",
+        "ip": "35.207.154.5"
+    },
+    {
         "hostname": "frankfurt10063.discord.gg",
         "ip": "35.207.146.89"
     },
@@ -626,10 +630,6 @@
     {
         "hostname": "frankfurt10065.discord.gg",
         "ip": "35.207.95.107"
-    },
-    {
-        "hostname": "frankfurt10066.discord.gg",
-        "ip": "35.207.78.129"
     },
     {
         "hostname": "frankfurt10067.discord.gg",
@@ -654,6 +654,10 @@
     {
         "hostname": "frankfurt10072.discord.gg",
         "ip": "35.207.139.154"
+    },
+    {
+        "hostname": "frankfurt10073.discord.gg",
+        "ip": "35.207.107.19"
     },
     {
         "hostname": "frankfurt10074.discord.gg",
@@ -696,8 +700,16 @@
         "ip": "35.207.147.121"
     },
     {
+        "hostname": "frankfurt10084.discord.gg",
+        "ip": "35.207.166.36"
+    },
+    {
         "hostname": "frankfurt10085.discord.gg",
         "ip": "35.207.104.10"
+    },
+    {
+        "hostname": "frankfurt10086.discord.gg",
+        "ip": "35.207.154.200"
     },
     {
         "hostname": "frankfurt10087.discord.gg",
@@ -724,12 +736,24 @@
         "ip": "35.207.100.74"
     },
     {
+        "hostname": "frankfurt10093.discord.gg",
+        "ip": "35.207.64.4"
+    },
+    {
         "hostname": "frankfurt10094.discord.gg",
         "ip": "35.207.77.239"
     },
     {
+        "hostname": "frankfurt10095.discord.gg",
+        "ip": "35.207.71.119"
+    },
+    {
         "hostname": "frankfurt10096.discord.gg",
         "ip": "35.207.99.134"
+    },
+    {
+        "hostname": "frankfurt10097.discord.gg",
+        "ip": "35.207.103.70"
     },
     {
         "hostname": "frankfurt10098.discord.gg",
@@ -756,16 +780,12 @@
         "ip": "35.207.77.238"
     },
     {
-        "hostname": "frankfurt10104.discord.gg",
-        "ip": "35.207.104.162"
-    },
-    {
         "hostname": "frankfurt10105.discord.gg",
         "ip": "35.207.87.184"
     },
     {
-        "hostname": "frankfurt10107.discord.gg",
-        "ip": "35.207.71.203"
+        "hostname": "frankfurt10106.discord.gg",
+        "ip": "35.207.184.101"
     },
     {
         "hostname": "frankfurt10108.discord.gg",
@@ -774,10 +794,6 @@
     {
         "hostname": "frankfurt10109.discord.gg",
         "ip": "35.207.85.160"
-    },
-    {
-        "hostname": "frankfurt10110.discord.gg",
-        "ip": "35.207.191.121"
     },
     {
         "hostname": "frankfurt10111.discord.gg",
@@ -800,8 +816,8 @@
         "ip": "35.207.77.67"
     },
     {
-        "hostname": "frankfurt10116.discord.gg",
-        "ip": "35.207.75.191"
+        "hostname": "frankfurt10117.discord.gg",
+        "ip": "35.207.167.122"
     },
     {
         "hostname": "frankfurt10118.discord.gg",
@@ -832,16 +848,8 @@
         "ip": "35.207.167.113"
     },
     {
-        "hostname": "frankfurt10125.discord.gg",
-        "ip": "35.207.170.35"
-    },
-    {
         "hostname": "frankfurt10126.discord.gg",
         "ip": "35.207.72.32"
-    },
-    {
-        "hostname": "frankfurt10127.discord.gg",
-        "ip": "35.207.81.250"
     },
     {
         "hostname": "frankfurt10128.discord.gg",
@@ -868,10 +876,6 @@
         "ip": "35.207.139.227"
     },
     {
-        "hostname": "frankfurt10134.discord.gg",
-        "ip": "35.207.150.137"
-    },
-    {
         "hostname": "frankfurt10135.discord.gg",
         "ip": "35.207.147.63"
     },
@@ -886,6 +890,10 @@
     {
         "hostname": "frankfurt10138.discord.gg",
         "ip": "35.207.163.203"
+    },
+    {
+        "hostname": "frankfurt10139.discord.gg",
+        "ip": "35.207.108.215"
     },
     {
         "hostname": "frankfurt10140.discord.gg",
@@ -916,10 +924,6 @@
         "ip": "35.207.74.138"
     },
     {
-        "hostname": "frankfurt10147.discord.gg",
-        "ip": "35.207.166.69"
-    },
-    {
         "hostname": "frankfurt10148.discord.gg",
         "ip": "35.207.116.51"
     },
@@ -932,8 +936,12 @@
         "ip": "35.207.141.119"
     },
     {
-        "hostname": "frankfurt10152.discord.gg",
-        "ip": "35.207.110.163"
+        "hostname": "frankfurt10151.discord.gg",
+        "ip": "35.207.126.30"
+    },
+    {
+        "hostname": "frankfurt10153.discord.gg",
+        "ip": "35.207.76.184"
     },
     {
         "hostname": "frankfurt10154.discord.gg",
@@ -952,10 +960,6 @@
         "ip": "35.207.190.194"
     },
     {
-        "hostname": "frankfurt10158.discord.gg",
-        "ip": "35.207.117.24"
-    },
-    {
         "hostname": "frankfurt10159.discord.gg",
         "ip": "35.207.125.116"
     },
@@ -966,10 +970,6 @@
     {
         "hostname": "frankfurt10161.discord.gg",
         "ip": "35.207.121.204"
-    },
-    {
-        "hostname": "frankfurt10162.discord.gg",
-        "ip": "35.207.124.145"
     },
     {
         "hostname": "frankfurt10163.discord.gg",
@@ -1006,6 +1006,10 @@
     {
         "hostname": "frankfurt10171.discord.gg",
         "ip": "35.207.95.255"
+    },
+    {
+        "hostname": "frankfurt10172.discord.gg",
+        "ip": "35.207.187.228"
     },
     {
         "hostname": "frankfurt10173.discord.gg",
