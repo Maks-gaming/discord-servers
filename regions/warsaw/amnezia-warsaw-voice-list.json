@@ -8,24 +8,12 @@
         "ip": "34.0.240.100"
     },
     {
-        "hostname": "warsaw10002.discord.gg",
-        "ip": "34.0.244.201"
-    },
-    {
         "hostname": "warsaw10003.discord.gg",
         "ip": "34.0.248.19"
     },
     {
         "hostname": "warsaw10004.discord.gg",
         "ip": "34.0.242.46"
-    },
-    {
-        "hostname": "warsaw10005.discord.gg",
-        "ip": "34.0.249.71"
-    },
-    {
-        "hostname": "warsaw10006.discord.gg",
-        "ip": "34.0.244.230"
     },
     {
         "hostname": "warsaw10007.discord.gg",
@@ -72,6 +60,10 @@
         "ip": "34.0.246.222"
     },
     {
+        "hostname": "warsaw10019.discord.gg",
+        "ip": "34.0.245.73"
+    },
+    {
         "hostname": "warsaw10020.discord.gg",
         "ip": "34.0.242.166"
     },
@@ -96,16 +88,16 @@
         "ip": "34.0.250.203"
     },
     {
+        "hostname": "warsaw10026.discord.gg",
+        "ip": "34.0.246.185"
+    },
+    {
         "hostname": "warsaw10027.discord.gg",
         "ip": "34.0.244.98"
     },
     {
         "hostname": "warsaw10028.discord.gg",
         "ip": "34.0.248.218"
-    },
-    {
-        "hostname": "warsaw10029.discord.gg",
-        "ip": "34.0.240.237"
     },
     {
         "hostname": "warsaw10030.discord.gg",
@@ -118,6 +110,10 @@
     {
         "hostname": "warsaw10032.discord.gg",
         "ip": "34.0.244.196"
+    },
+    {
+        "hostname": "warsaw10033.discord.gg",
+        "ip": "34.0.242.180"
     },
     {
         "hostname": "warsaw10034.discord.gg",
@@ -138,6 +134,10 @@
     {
         "hostname": "warsaw10038.discord.gg",
         "ip": "34.0.247.217"
+    },
+    {
+        "hostname": "warsaw10039.discord.gg",
+        "ip": "34.0.249.228"
     },
     {
         "hostname": "warsaw10040.discord.gg",
@@ -162,6 +162,14 @@
     {
         "hostname": "warsaw10045.discord.gg",
         "ip": "34.0.240.34"
+    },
+    {
+        "hostname": "warsaw10046.discord.gg",
+        "ip": "34.0.245.193"
+    },
+    {
+        "hostname": "warsaw10047.discord.gg",
+        "ip": "34.0.241.8"
     },
     {
         "hostname": "warsaw10048.discord.gg",
@@ -204,20 +212,16 @@
         "ip": "34.0.247.11"
     },
     {
-        "hostname": "warsaw10058.discord.gg",
-        "ip": "34.0.244.207"
-    },
-    {
-        "hostname": "warsaw10059.discord.gg",
-        "ip": "34.0.246.174"
-    },
-    {
         "hostname": "warsaw10060.discord.gg",
         "ip": "34.0.247.21"
     },
     {
         "hostname": "warsaw10061.discord.gg",
         "ip": "34.0.243.218"
+    },
+    {
+        "hostname": "warsaw10062.discord.gg",
+        "ip": "34.0.240.94"
     },
     {
         "hostname": "warsaw10063.discord.gg",
@@ -248,8 +252,8 @@
         "ip": "34.0.250.56"
     },
     {
-        "hostname": "warsaw10072.discord.gg",
-        "ip": "34.0.250.38"
+        "hostname": "warsaw10070.discord.gg",
+        "ip": "34.0.250.10"
     },
     {
         "hostname": "warsaw10073.discord.gg",
@@ -262,10 +266,6 @@
     {
         "hostname": "warsaw10075.discord.gg",
         "ip": "34.0.243.231"
-    },
-    {
-        "hostname": "warsaw10076.discord.gg",
-        "ip": "34.0.249.187"
     },
     {
         "hostname": "warsaw10077.discord.gg",
@@ -290,10 +290,6 @@
     {
         "hostname": "warsaw10082.discord.gg",
         "ip": "34.0.245.62"
-    },
-    {
-        "hostname": "warsaw10083.discord.gg",
-        "ip": "34.0.249.220"
     },
     {
         "hostname": "warsaw10084.discord.gg",
@@ -328,6 +324,10 @@
         "ip": "34.0.240.204"
     },
     {
+        "hostname": "warsaw10092.discord.gg",
+        "ip": "34.0.249.68"
+    },
+    {
         "hostname": "warsaw10093.discord.gg",
         "ip": "34.0.250.179"
     },
@@ -344,6 +344,10 @@
         "ip": "34.0.245.158"
     },
     {
+        "hostname": "warsaw10097.discord.gg",
+        "ip": "34.0.246.242"
+    },
+    {
         "hostname": "warsaw10098.discord.gg",
         "ip": "34.0.246.215"
     },
@@ -352,8 +356,8 @@
         "ip": "34.0.246.119"
     },
     {
-        "hostname": "warsaw10101.discord.gg",
-        "ip": "34.0.244.121"
+        "hostname": "warsaw10100.discord.gg",
+        "ip": "34.0.250.144"
     },
     {
         "hostname": "warsaw10102.discord.gg",
@@ -366,6 +370,10 @@
     {
         "hostname": "warsaw10104.discord.gg",
         "ip": "34.0.247.19"
+    },
+    {
+        "hostname": "warsaw10105.discord.gg",
+        "ip": "34.0.240.1"
     },
     {
         "hostname": "warsaw10106.discord.gg",
@@ -392,12 +400,20 @@
         "ip": "34.0.250.187"
     },
     {
+        "hostname": "warsaw10112.discord.gg",
+        "ip": "34.0.243.25"
+    },
+    {
         "hostname": "warsaw10113.discord.gg",
         "ip": "34.0.244.165"
     },
     {
         "hostname": "warsaw10114.discord.gg",
         "ip": "34.0.246.214"
+    },
+    {
+        "hostname": "warsaw10115.discord.gg",
+        "ip": "34.0.251.17"
     },
     {
         "hostname": "warsaw10116.discord.gg",
@@ -440,12 +456,20 @@
         "ip": "34.0.248.48"
     },
     {
+        "hostname": "warsaw10126.discord.gg",
+        "ip": "34.0.245.18"
+    },
+    {
         "hostname": "warsaw10127.discord.gg",
         "ip": "34.0.250.46"
     },
     {
         "hostname": "warsaw10128.discord.gg",
         "ip": "34.0.240.121"
+    },
+    {
+        "hostname": "warsaw10129.discord.gg",
+        "ip": "34.0.243.199"
     },
     {
         "hostname": "warsaw10130.discord.gg",
@@ -462,6 +486,10 @@
     {
         "hostname": "warsaw10134.discord.gg",
         "ip": "34.0.250.133"
+    },
+    {
+        "hostname": "warsaw10135.discord.gg",
+        "ip": "34.0.249.237"
     },
     {
         "hostname": "warsaw10136.discord.gg",
@@ -482,6 +510,10 @@
     {
         "hostname": "warsaw10140.discord.gg",
         "ip": "34.0.245.234"
+    },
+    {
+        "hostname": "warsaw10141.discord.gg",
+        "ip": "34.0.246.245"
     },
     {
         "hostname": "warsaw10142.discord.gg",
@@ -512,6 +544,10 @@
         "ip": "34.0.246.15"
     },
     {
+        "hostname": "warsaw10149.discord.gg",
+        "ip": "34.0.243.20"
+    },
+    {
         "hostname": "warsaw10150.discord.gg",
         "ip": "34.0.247.118"
     },
@@ -522,10 +558,6 @@
     {
         "hostname": "warsaw10152.discord.gg",
         "ip": "34.0.240.240"
-    },
-    {
-        "hostname": "warsaw10153.discord.gg",
-        "ip": "34.0.241.144"
     },
     {
         "hostname": "warsaw10154.discord.gg",
