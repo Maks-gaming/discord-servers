@@ -36,12 +36,12 @@
         "ip": "35.213.229.17"
     },
     {
-        "hostname": "sydney11009.discord.gg",
-        "ip": "35.213.252.34"
-    },
-    {
         "hostname": "sydney11010.discord.gg",
         "ip": "35.213.223.182"
+    },
+    {
+        "hostname": "sydney11011.discord.gg",
+        "ip": "35.213.204.44"
     },
     {
         "hostname": "sydney11012.discord.gg",
@@ -76,12 +76,24 @@
         "ip": "35.213.210.232"
     },
     {
+        "hostname": "sydney11020.discord.gg",
+        "ip": "35.213.217.122"
+    },
+    {
+        "hostname": "sydney11021.discord.gg",
+        "ip": "35.213.246.38"
+    },
+    {
         "hostname": "sydney11023.discord.gg",
         "ip": "35.213.202.121"
     },
     {
         "hostname": "sydney11024.discord.gg",
         "ip": "35.213.205.170"
+    },
+    {
+        "hostname": "sydney11025.discord.gg",
+        "ip": "35.213.217.196"
     },
     {
         "hostname": "sydney11026.discord.gg",
@@ -164,16 +176,8 @@
         "ip": "35.213.194.45"
     },
     {
-        "hostname": "sydney11047.discord.gg",
-        "ip": "35.213.247.201"
-    },
-    {
         "hostname": "sydney11048.discord.gg",
         "ip": "35.213.234.134"
-    },
-    {
-        "hostname": "sydney11049.discord.gg",
-        "ip": "35.213.201.185"
     },
     {
         "hostname": "sydney11050.discord.gg",
@@ -196,16 +200,16 @@
         "ip": "35.213.207.137"
     },
     {
+        "hostname": "sydney11055.discord.gg",
+        "ip": "35.213.247.158"
+    },
+    {
         "hostname": "sydney11056.discord.gg",
         "ip": "35.213.217.88"
     },
     {
         "hostname": "sydney11057.discord.gg",
         "ip": "35.213.197.68"
-    },
-    {
-        "hostname": "sydney11058.discord.gg",
-        "ip": "35.213.241.213"
     },
     {
         "hostname": "sydney11059.discord.gg",
@@ -280,6 +284,10 @@
         "ip": "35.213.217.225"
     },
     {
+        "hostname": "sydney11077.discord.gg",
+        "ip": "35.213.207.206"
+    },
+    {
         "hostname": "sydney11078.discord.gg",
         "ip": "35.213.219.46"
     },
@@ -324,10 +332,6 @@
         "ip": "35.213.225.94"
     },
     {
-        "hostname": "sydney11089.discord.gg",
-        "ip": "35.213.238.74"
-    },
-    {
         "hostname": "sydney11090.discord.gg",
         "ip": "35.213.212.242"
     },
@@ -356,11 +360,19 @@
         "ip": "35.213.231.2"
     },
     {
+        "hostname": "sydney11097.discord.gg",
+        "ip": "35.213.223.81"
+    },
+    {
         "hostname": "sydney11098.discord.gg",
         "ip": "35.213.212.18"
     },
     {
         "hostname": "sydney11099.discord.gg",
         "ip": "35.213.208.85"
+    },
+    {
+        "hostname": "sydney11100.discord.gg",
+        "ip": "35.213.240.212"
     }
 ]
