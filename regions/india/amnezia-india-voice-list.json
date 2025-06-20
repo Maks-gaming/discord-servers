@@ -4,8 +4,12 @@
         "ip": "35.207.209.40"
     },
     {
-        "hostname": "india10001.discord.gg",
-        "ip": "35.207.196.40"
+        "hostname": "india10002.discord.gg",
+        "ip": "35.207.245.207"
+    },
+    {
+        "hostname": "india10003.discord.gg",
+        "ip": "35.207.224.151"
     },
     {
         "hostname": "india10004.discord.gg",
@@ -96,10 +100,6 @@
         "ip": "35.207.198.95"
     },
     {
-        "hostname": "india10026.discord.gg",
-        "ip": "35.207.207.4"
-    },
-    {
         "hostname": "india10027.discord.gg",
         "ip": "35.207.249.153"
     },
@@ -112,8 +112,8 @@
         "ip": "35.207.240.251"
     },
     {
-        "hostname": "india10031.discord.gg",
-        "ip": "35.207.240.78"
+        "hostname": "india10030.discord.gg",
+        "ip": "35.207.213.97"
     },
     {
         "hostname": "india10032.discord.gg",
@@ -134,6 +134,10 @@
     {
         "hostname": "india10036.discord.gg",
         "ip": "35.207.195.75"
+    },
+    {
+        "hostname": "india10037.discord.gg",
+        "ip": "35.207.227.110"
     },
     {
         "hostname": "india10038.discord.gg",
@@ -158,5 +162,9 @@
     {
         "hostname": "india10043.discord.gg",
         "ip": "35.207.251.10"
+    },
+    {
+        "hostname": "india10044.discord.gg",
+        "ip": "35.207.225.210"
     }
 ]
