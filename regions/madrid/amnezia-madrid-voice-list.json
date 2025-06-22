@@ -36,16 +36,8 @@
         "ip": "66.22.241.158"
     },
     {
-        "hostname": "madrid1149.discord.gg",
-        "ip": "66.22.241.134"
-    },
-    {
         "hostname": "madrid1228.discord.gg",
         "ip": "66.22.241.33"
-    },
-    {
-        "hostname": "madrid1246.discord.gg",
-        "ip": "66.22.241.152"
     },
     {
         "hostname": "madrid1449.discord.gg",
@@ -116,16 +108,8 @@
         "ip": "66.22.241.8"
     },
     {
-        "hostname": "madrid7256.discord.gg",
-        "ip": "66.22.241.16"
-    },
-    {
         "hostname": "madrid7764.discord.gg",
         "ip": "66.22.241.36"
-    },
-    {
-        "hostname": "madrid7930.discord.gg",
-        "ip": "66.22.241.132"
     },
     {
         "hostname": "madrid8367.discord.gg",
@@ -168,12 +152,20 @@
         "ip": "34.0.193.212"
     },
     {
+        "hostname": "madrid10003.discord.gg",
+        "ip": "34.0.207.111"
+    },
+    {
         "hostname": "madrid10004.discord.gg",
         "ip": "34.0.193.93"
     },
     {
         "hostname": "madrid10005.discord.gg",
         "ip": "34.0.192.121"
+    },
+    {
+        "hostname": "madrid10006.discord.gg",
+        "ip": "34.0.215.129"
     },
     {
         "hostname": "madrid10007.discord.gg",
@@ -188,8 +180,8 @@
         "ip": "34.0.212.174"
     },
     {
-        "hostname": "madrid10010.discord.gg",
-        "ip": "34.0.206.55"
+        "hostname": "madrid10011.discord.gg",
+        "ip": "34.0.209.141"
     },
     {
         "hostname": "madrid10012.discord.gg",
@@ -244,10 +236,6 @@
         "ip": "34.0.212.55"
     },
     {
-        "hostname": "madrid10025.discord.gg",
-        "ip": "34.0.207.106"
-    },
-    {
         "hostname": "madrid10026.discord.gg",
         "ip": "34.0.194.191"
     },
@@ -262,6 +250,10 @@
     {
         "hostname": "madrid10029.discord.gg",
         "ip": "34.0.192.36"
+    },
+    {
+        "hostname": "madrid10030.discord.gg",
+        "ip": "34.0.206.71"
     },
     {
         "hostname": "madrid10031.discord.gg",
@@ -300,10 +292,6 @@
         "ip": "34.0.194.214"
     },
     {
-        "hostname": "madrid10040.discord.gg",
-        "ip": "34.0.200.173"
-    },
-    {
         "hostname": "madrid10041.discord.gg",
         "ip": "34.0.210.20"
     },
@@ -318,6 +306,10 @@
     {
         "hostname": "madrid10044.discord.gg",
         "ip": "34.0.221.227"
+    },
+    {
+        "hostname": "madrid10045.discord.gg",
+        "ip": "34.0.205.207"
     },
     {
         "hostname": "madrid10046.discord.gg",
@@ -356,6 +348,10 @@
         "ip": "34.0.194.137"
     },
     {
+        "hostname": "madrid10055.discord.gg",
+        "ip": "34.0.213.108"
+    },
+    {
         "hostname": "madrid10056.discord.gg",
         "ip": "34.0.211.21"
     },
@@ -378,5 +374,9 @@
     {
         "hostname": "madrid10061.discord.gg",
         "ip": "34.0.199.62"
+    },
+    {
+        "hostname": "madrid10062.discord.gg",
+        "ip": "34.0.204.144"
     }
 ]
