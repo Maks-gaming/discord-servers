@@ -4,10 +4,6 @@
         "ip": "66.22.212.127"
     },
     {
-        "hostname": "newark326.discord.gg",
-        "ip": "66.22.214.122"
-    },
-    {
         "hostname": "newark496.discord.gg",
         "ip": "66.22.212.43"
     },
@@ -22,6 +18,10 @@
     {
         "hostname": "newark713.discord.gg",
         "ip": "66.22.214.160"
+    },
+    {
+        "hostname": "newark768.discord.gg",
+        "ip": "66.22.214.21"
     },
     {
         "hostname": "newark782.discord.gg",
@@ -44,10 +44,6 @@
         "ip": "66.22.212.151"
     },
     {
-        "hostname": "newark1070.discord.gg",
-        "ip": "66.22.214.123"
-    },
-    {
         "hostname": "newark1095.discord.gg",
         "ip": "66.22.212.120"
     },
@@ -56,8 +52,16 @@
         "ip": "66.22.214.46"
     },
     {
+        "hostname": "newark1271.discord.gg",
+        "ip": "66.22.214.66"
+    },
+    {
         "hostname": "newark1353.discord.gg",
         "ip": "66.22.214.9"
+    },
+    {
+        "hostname": "newark1377.discord.gg",
+        "ip": "66.22.214.79"
     },
     {
         "hostname": "newark1429.discord.gg",
@@ -82,10 +86,6 @@
     {
         "hostname": "newark1844.discord.gg",
         "ip": "66.22.212.153"
-    },
-    {
-        "hostname": "newark1853.discord.gg",
-        "ip": "66.22.214.6"
     },
     {
         "hostname": "newark1935.discord.gg",
@@ -134,10 +134,6 @@
     {
         "hostname": "newark2611.discord.gg",
         "ip": "66.22.212.56"
-    },
-    {
-        "hostname": "newark2643.discord.gg",
-        "ip": "66.22.212.126"
     },
     {
         "hostname": "newark2658.discord.gg",
@@ -192,6 +188,10 @@
         "ip": "66.22.214.41"
     },
     {
+        "hostname": "newark3144.discord.gg",
+        "ip": "66.22.212.119"
+    },
+    {
         "hostname": "newark3189.discord.gg",
         "ip": "66.22.212.11"
     },
@@ -236,6 +236,10 @@
         "ip": "66.22.214.92"
     },
     {
+        "hostname": "newark3756.discord.gg",
+        "ip": "66.22.212.14"
+    },
+    {
         "hostname": "newark3766.discord.gg",
         "ip": "66.22.212.81"
     },
@@ -248,10 +252,6 @@
         "ip": "66.22.214.70"
     },
     {
-        "hostname": "newark3891.discord.gg",
-        "ip": "66.22.212.152"
-    },
-    {
         "hostname": "newark3917.discord.gg",
         "ip": "66.22.214.51"
     },
@@ -262,6 +262,10 @@
     {
         "hostname": "newark3993.discord.gg",
         "ip": "66.22.214.85"
+    },
+    {
+        "hostname": "newark4002.discord.gg",
+        "ip": "66.22.214.14"
     },
     {
         "hostname": "newark4016.discord.gg",
@@ -320,10 +324,6 @@
         "ip": "66.22.212.22"
     },
     {
-        "hostname": "newark4719.discord.gg",
-        "ip": "66.22.212.97"
-    },
-    {
         "hostname": "newark4725.discord.gg",
         "ip": "66.22.214.31"
     },
@@ -346,6 +346,10 @@
     {
         "hostname": "newark4881.discord.gg",
         "ip": "66.22.212.115"
+    },
+    {
+        "hostname": "newark4902.discord.gg",
+        "ip": "66.22.212.54"
     },
     {
         "hostname": "newark4926.discord.gg",
@@ -416,6 +420,10 @@
         "ip": "66.22.214.29"
     },
     {
+        "hostname": "newark6152.discord.gg",
+        "ip": "66.22.214.75"
+    },
+    {
         "hostname": "newark6371.discord.gg",
         "ip": "66.22.214.74"
     },
@@ -460,10 +468,6 @@
         "ip": "66.22.214.12"
     },
     {
-        "hostname": "newark6717.discord.gg",
-        "ip": "66.22.212.59"
-    },
-    {
         "hostname": "newark6793.discord.gg",
         "ip": "66.22.212.100"
     },
@@ -476,20 +480,16 @@
         "ip": "66.22.214.99"
     },
     {
+        "hostname": "newark7013.discord.gg",
+        "ip": "66.22.212.25"
+    },
+    {
         "hostname": "newark7077.discord.gg",
         "ip": "66.22.214.96"
     },
     {
-        "hostname": "newark7091.discord.gg",
-        "ip": "66.22.214.25"
-    },
-    {
         "hostname": "newark7125.discord.gg",
         "ip": "66.22.212.121"
-    },
-    {
-        "hostname": "newark7152.discord.gg",
-        "ip": "66.22.214.113"
     },
     {
         "hostname": "newark7193.discord.gg",
@@ -524,12 +524,24 @@
         "ip": "66.22.214.18"
     },
     {
+        "hostname": "newark7844.discord.gg",
+        "ip": "66.22.212.4"
+    },
+    {
         "hostname": "newark7874.discord.gg",
         "ip": "66.22.212.141"
     },
     {
         "hostname": "newark7931.discord.gg",
         "ip": "66.22.214.22"
+    },
+    {
+        "hostname": "newark7954.discord.gg",
+        "ip": "66.22.214.24"
+    },
+    {
+        "hostname": "newark8020.discord.gg",
+        "ip": "66.22.212.49"
     },
     {
         "hostname": "newark8139.discord.gg",
@@ -546,6 +558,10 @@
     {
         "hostname": "newark8303.discord.gg",
         "ip": "66.22.214.78"
+    },
+    {
+        "hostname": "newark8391.discord.gg",
+        "ip": "66.22.214.148"
     },
     {
         "hostname": "newark8549.discord.gg",
@@ -574,6 +590,10 @@
     {
         "hostname": "newark8840.discord.gg",
         "ip": "66.22.212.27"
+    },
+    {
+        "hostname": "newark8898.discord.gg",
+        "ip": "66.22.214.13"
     },
     {
         "hostname": "newark9021.discord.gg",
@@ -632,6 +652,10 @@
         "ip": "66.22.214.17"
     },
     {
+        "hostname": "newark9791.discord.gg",
+        "ip": "66.22.214.50"
+    },
+    {
         "hostname": "newark9829.discord.gg",
         "ip": "66.22.214.5"
     },
@@ -642,6 +666,14 @@
     {
         "hostname": "newark9922.discord.gg",
         "ip": "66.22.212.7"
+    },
+    {
+        "hostname": "newark9929.discord.gg",
+        "ip": "66.22.214.90"
+    },
+    {
+        "hostname": "newark9935.discord.gg",
+        "ip": "66.22.212.19"
     },
     {
         "hostname": "newark9980.discord.gg",
