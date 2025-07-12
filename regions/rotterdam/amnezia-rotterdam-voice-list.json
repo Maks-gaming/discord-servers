@@ -1,5 +1,9 @@
 [
     {
+        "hostname": "rotterdam11000.discord.gg",
+        "ip": "35.214.171.28"
+    },
+    {
         "hostname": "rotterdam11001.discord.gg",
         "ip": "35.214.151.181"
     },
@@ -128,10 +132,6 @@
         "ip": "35.214.152.244"
     },
     {
-        "hostname": "rotterdam11033.discord.gg",
-        "ip": "35.214.192.253"
-    },
-    {
         "hostname": "rotterdam11034.discord.gg",
         "ip": "35.214.138.117"
     },
@@ -192,8 +192,8 @@
         "ip": "35.214.212.79"
     },
     {
-        "hostname": "rotterdam11049.discord.gg",
-        "ip": "35.214.255.154"
+        "hostname": "rotterdam11050.discord.gg",
+        "ip": "35.214.184.179"
     },
     {
         "hostname": "rotterdam11051.discord.gg",
@@ -244,6 +244,10 @@
         "ip": "35.214.138.95"
     },
     {
+        "hostname": "rotterdam11063.discord.gg",
+        "ip": "35.214.253.49"
+    },
+    {
         "hostname": "rotterdam11064.discord.gg",
         "ip": "35.214.171.117"
     },
@@ -284,10 +288,6 @@
         "ip": "35.214.222.149"
     },
     {
-        "hostname": "rotterdam11074.discord.gg",
-        "ip": "35.214.208.159"
-    },
-    {
         "hostname": "rotterdam11075.discord.gg",
         "ip": "35.214.249.154"
     },
@@ -298,10 +298,6 @@
     {
         "hostname": "rotterdam11077.discord.gg",
         "ip": "35.214.250.53"
-    },
-    {
-        "hostname": "rotterdam11078.discord.gg",
-        "ip": "35.214.233.8"
     },
     {
         "hostname": "rotterdam11079.discord.gg",
@@ -352,10 +348,6 @@
         "ip": "35.214.207.131"
     },
     {
-        "hostname": "rotterdam11091.discord.gg",
-        "ip": "35.214.251.200"
-    },
-    {
         "hostname": "rotterdam11092.discord.gg",
         "ip": "35.214.244.113"
     },
@@ -382,6 +374,10 @@
     {
         "hostname": "rotterdam11098.discord.gg",
         "ip": "35.214.251.129"
+    },
+    {
+        "hostname": "rotterdam11099.discord.gg",
+        "ip": "35.214.227.157"
     },
     {
         "hostname": "rotterdam11100.discord.gg",
@@ -418,6 +414,10 @@
     {
         "hostname": "rotterdam11109.discord.gg",
         "ip": "35.214.162.183"
+    },
+    {
+        "hostname": "rotterdam11110.discord.gg",
+        "ip": "35.214.172.251"
     },
     {
         "hostname": "rotterdam11111.discord.gg",
@@ -488,10 +488,6 @@
         "ip": "35.214.187.54"
     },
     {
-        "hostname": "rotterdam11128.discord.gg",
-        "ip": "35.214.191.35"
-    },
-    {
         "hostname": "rotterdam11129.discord.gg",
         "ip": "35.214.140.183"
     },
@@ -552,6 +548,10 @@
         "ip": "35.214.238.32"
     },
     {
+        "hostname": "rotterdam11144.discord.gg",
+        "ip": "35.214.185.28"
+    },
+    {
         "hostname": "rotterdam11145.discord.gg",
         "ip": "35.214.204.252"
     },
@@ -566,10 +566,6 @@
     {
         "hostname": "rotterdam11148.discord.gg",
         "ip": "35.214.196.107"
-    },
-    {
-        "hostname": "rotterdam11149.discord.gg",
-        "ip": "35.214.146.9"
     },
     {
         "hostname": "rotterdam11150.discord.gg",
@@ -616,10 +612,6 @@
         "ip": "35.214.220.149"
     },
     {
-        "hostname": "rotterdam11161.discord.gg",
-        "ip": "35.214.229.53"
-    },
-    {
         "hostname": "rotterdam11162.discord.gg",
         "ip": "35.214.197.71"
     },
@@ -650,10 +642,6 @@
     {
         "hostname": "rotterdam11169.discord.gg",
         "ip": "35.214.187.212"
-    },
-    {
-        "hostname": "rotterdam11170.discord.gg",
-        "ip": "35.214.218.140"
     },
     {
         "hostname": "rotterdam11171.discord.gg",
@@ -688,10 +676,6 @@
         "ip": "35.214.237.105"
     },
     {
-        "hostname": "rotterdam11179.discord.gg",
-        "ip": "35.214.250.201"
-    },
-    {
         "hostname": "rotterdam11180.discord.gg",
         "ip": "35.214.133.102"
     },
@@ -716,8 +700,8 @@
         "ip": "35.214.158.168"
     },
     {
-        "hostname": "rotterdam11186.discord.gg",
-        "ip": "34.1.246.24"
+        "hostname": "rotterdam11187.discord.gg",
+        "ip": "35.214.213.59"
     },
     {
         "hostname": "rotterdam11188.discord.gg",
@@ -726,10 +710,6 @@
     {
         "hostname": "rotterdam11189.discord.gg",
         "ip": "35.214.129.238"
-    },
-    {
-        "hostname": "rotterdam11190.discord.gg",
-        "ip": "34.1.254.147"
     },
     {
         "hostname": "rotterdam11191.discord.gg",
@@ -772,16 +752,16 @@
         "ip": "35.214.153.113"
     },
     {
+        "hostname": "rotterdam11201.discord.gg",
+        "ip": "34.1.237.190"
+    },
+    {
         "hostname": "rotterdam11202.discord.gg",
         "ip": "35.214.198.109"
     },
     {
         "hostname": "rotterdam11203.discord.gg",
         "ip": "34.1.230.238"
-    },
-    {
-        "hostname": "rotterdam11204.discord.gg",
-        "ip": "34.1.247.90"
     },
     {
         "hostname": "rotterdam11205.discord.gg",
@@ -892,6 +872,10 @@
         "ip": "35.214.209.65"
     },
     {
+        "hostname": "rotterdam11232.discord.gg",
+        "ip": "34.1.255.89"
+    },
+    {
         "hostname": "rotterdam11233.discord.gg",
         "ip": "35.214.178.175"
     },
@@ -952,10 +936,6 @@
         "ip": "35.214.144.46"
     },
     {
-        "hostname": "rotterdam11248.discord.gg",
-        "ip": "35.214.132.105"
-    },
-    {
         "hostname": "rotterdam11249.discord.gg",
         "ip": "35.214.247.207"
     },
@@ -994,10 +974,6 @@
     {
         "hostname": "rotterdam11258.discord.gg",
         "ip": "35.214.236.5"
-    },
-    {
-        "hostname": "rotterdam11259.discord.gg",
-        "ip": "34.1.225.105"
     },
     {
         "hostname": "rotterdam11260.discord.gg",
