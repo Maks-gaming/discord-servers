@@ -1,5 +1,13 @@
 [
     {
+        "hostname": "us-west1015.discord.gg",
+        "ip": "66.22.226.85"
+    },
+    {
+        "hostname": "us-west1054.discord.gg",
+        "ip": "66.22.226.102"
+    },
+    {
         "hostname": "us-west1089.discord.gg",
         "ip": "66.22.227.21"
     },
@@ -20,36 +28,32 @@
         "ip": "66.22.227.122"
     },
     {
-        "hostname": "us-west2970.discord.gg",
-        "ip": "66.22.227.6"
-    },
-    {
         "hostname": "us-west3680.discord.gg",
         "ip": "66.22.227.15"
     },
     {
-        "hostname": "us-west3797.discord.gg",
-        "ip": "66.22.227.24"
+        "hostname": "us-west4453.discord.gg",
+        "ip": "66.22.226.104"
     },
     {
-        "hostname": "us-west4082.discord.gg",
-        "ip": "66.22.227.12"
-    },
-    {
-        "hostname": "us-west4283.discord.gg",
-        "ip": "66.22.226.96"
+        "hostname": "us-west4610.discord.gg",
+        "ip": "66.22.227.61"
     },
     {
         "hostname": "us-west4651.discord.gg",
         "ip": "66.22.227.16"
     },
     {
-        "hostname": "us-west4925.discord.gg",
-        "ip": "66.22.227.10"
+        "hostname": "us-west4851.discord.gg",
+        "ip": "66.22.226.6"
     },
     {
-        "hostname": "us-west5032.discord.gg",
-        "ip": "66.22.226.94"
+        "hostname": "us-west4875.discord.gg",
+        "ip": "66.22.226.65"
+    },
+    {
+        "hostname": "us-west4925.discord.gg",
+        "ip": "66.22.227.10"
     },
     {
         "hostname": "us-west5113.discord.gg",
@@ -60,16 +64,16 @@
         "ip": "66.22.227.63"
     },
     {
-        "hostname": "us-west6078.discord.gg",
-        "ip": "66.22.226.86"
+        "hostname": "us-west5639.discord.gg",
+        "ip": "66.22.226.21"
+    },
+    {
+        "hostname": "us-west5937.discord.gg",
+        "ip": "66.22.227.14"
     },
     {
         "hostname": "us-west6193.discord.gg",
         "ip": "66.22.227.19"
-    },
-    {
-        "hostname": "us-west6487.discord.gg",
-        "ip": "66.22.227.25"
     },
     {
         "hostname": "us-west6540.discord.gg",
@@ -80,12 +84,20 @@
         "ip": "66.22.226.22"
     },
     {
-        "hostname": "us-west7239.discord.gg",
-        "ip": "66.22.227.20"
-    },
-    {
         "hostname": "us-west7694.discord.gg",
         "ip": "66.22.227.121"
+    },
+    {
+        "hostname": "us-west7866.discord.gg",
+        "ip": "66.22.227.18"
+    },
+    {
+        "hostname": "us-west7877.discord.gg",
+        "ip": "66.22.226.128"
+    },
+    {
+        "hostname": "us-west8406.discord.gg",
+        "ip": "66.22.227.100"
     },
     {
         "hostname": "us-west8588.discord.gg",
@@ -108,23 +120,23 @@
         "ip": "66.22.226.91"
     },
     {
-        "hostname": "us-west9654.discord.gg",
-        "ip": "66.22.226.101"
-    },
-    {
-        "hostname": "us-west9717.discord.gg",
-        "ip": "66.22.227.40"
+        "hostname": "us-west9757.discord.gg",
+        "ip": "66.22.226.27"
     },
     {
         "hostname": "us-west11000.discord.gg",
         "ip": "35.215.83.0"
     },
     {
+        "hostname": "us-west11001.discord.gg",
+        "ip": "35.215.72.85"
+    },
+    {
         "hostname": "us-west11004.discord.gg",
         "ip": "35.215.126.35"
     },
     {
-        "hostname": "us-west11006.discord.gg",
-        "ip": "35.215.73.65"
+        "hostname": "us-west11005.discord.gg",
+        "ip": "35.215.127.34"
     }
 ]
