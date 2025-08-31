@@ -1,5 +1,13 @@
 [
     {
+        "hostname": "stage-scale10002.discord.gg",
+        "ip": "35.215.115.126"
+    },
+    {
+        "hostname": "stage-scale10003.discord.gg",
+        "ip": "35.215.106.138"
+    },
+    {
         "hostname": "stage-scale10004.discord.gg",
         "ip": "35.215.103.83"
     },
@@ -8,7 +16,7 @@
         "ip": "35.215.112.222"
     },
     {
-        "hostname": "stage-scale10008.discord.gg",
-        "ip": "35.215.73.82"
+        "hostname": "stage-scale10009.discord.gg",
+        "ip": "35.215.80.211"
     }
 ]
