@@ -1,26 +1,14 @@
 [
     {
-        "hostname": "stage-scale10021.discord.gg",
-        "ip": "34.4.28.170"
-    },
-    {
-        "hostname": "stage-scale10023.discord.gg",
-        "ip": "35.215.85.252"
-    },
-    {
         "hostname": "stage-scale10024.discord.gg",
         "ip": "35.215.83.0"
-    },
-    {
-        "hostname": "stage-scale10026.discord.gg",
-        "ip": "35.215.126.35"
     },
     {
         "hostname": "stage-scale10027.discord.gg",
         "ip": "35.215.113.144"
     },
     {
-        "hostname": "stage-scale10028.discord.gg",
-        "ip": "35.215.115.120"
+        "hostname": "stage-scale10029.discord.gg",
+        "ip": "34.4.29.239"
     }
 ]
