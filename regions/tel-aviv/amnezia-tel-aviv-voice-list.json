@@ -1,45 +1,5 @@
 [
     {
-        "hostname": "tel-aviv10001.discord.gg",
-        "ip": "34.0.64.50"
-    },
-    {
-        "hostname": "tel-aviv10005.discord.gg",
-        "ip": "34.0.64.194"
-    },
-    {
-        "hostname": "tel-aviv10006.discord.gg",
-        "ip": "34.0.64.26"
-    },
-    {
-        "hostname": "tel-aviv10007.discord.gg",
-        "ip": "34.0.64.221"
-    },
-    {
-        "hostname": "tel-aviv10010.discord.gg",
-        "ip": "34.0.64.255"
-    },
-    {
-        "hostname": "tel-aviv10011.discord.gg",
-        "ip": "34.0.65.103"
-    },
-    {
-        "hostname": "tel-aviv10012.discord.gg",
-        "ip": "34.0.66.130"
-    },
-    {
-        "hostname": "tel-aviv10014.discord.gg",
-        "ip": "34.0.65.227"
-    },
-    {
-        "hostname": "tel-aviv10016.discord.gg",
-        "ip": "34.0.77.109"
-    },
-    {
-        "hostname": "tel-aviv12001.discord.gg",
-        "ip": "34.0.70.92"
-    },
-    {
         "hostname": "tel-aviv12003.discord.gg",
         "ip": "34.0.85.67"
     },
@@ -60,11 +20,19 @@
         "ip": "34.0.88.190"
     },
     {
+        "hostname": "tel-aviv12010.discord.gg",
+        "ip": "34.0.69.107"
+    },
+    {
+        "hostname": "tel-aviv12012.discord.gg",
+        "ip": "34.0.78.178"
+    },
+    {
         "hostname": "tel-aviv12013.discord.gg",
         "ip": "34.0.90.161"
     },
     {
-        "hostname": "tel-aviv12014.discord.gg",
-        "ip": "34.0.88.35"
+        "hostname": "tel-aviv12015.discord.gg",
+        "ip": "34.0.68.142"
     }
 ]
