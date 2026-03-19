@@ -1,11 +1,19 @@
 [
     {
+        "hostname": "tel-aviv12001.discord.gg",
+        "ip": "34.0.70.92"
+    },
+    {
         "hostname": "tel-aviv12002.discord.gg",
         "ip": "34.0.78.156"
     },
     {
         "hostname": "tel-aviv12003.discord.gg",
         "ip": "34.0.85.67"
+    },
+    {
+        "hostname": "tel-aviv12005.discord.gg",
+        "ip": "34.0.76.245"
     },
     {
         "hostname": "tel-aviv12006.discord.gg",
@@ -30,9 +38,5 @@
     {
         "hostname": "tel-aviv12013.discord.gg",
         "ip": "34.0.90.161"
-    },
-    {
-        "hostname": "tel-aviv12015.discord.gg",
-        "ip": "34.0.68.142"
     }
 ]
