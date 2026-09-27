@@ -656,10 +656,6 @@
         "ip": "35.207.194.63"
     },
     {
-        "hostname": "india11017.discord.gg",
-        "ip": "35.207.216.167"
-    },
-    {
         "hostname": "india11018.discord.gg",
         "ip": "35.207.239.34"
     },
@@ -668,32 +664,12 @@
         "ip": "35.207.236.115"
     },
     {
-        "hostname": "india11020.discord.gg",
-        "ip": "35.207.247.108"
-    },
-    {
         "hostname": "india11021.discord.gg",
         "ip": "35.207.246.234"
     },
     {
-        "hostname": "india11023.discord.gg",
-        "ip": "35.207.212.149"
-    },
-    {
-        "hostname": "india11024.discord.gg",
-        "ip": "35.207.243.61"
-    },
-    {
-        "hostname": "india11025.discord.gg",
-        "ip": "35.207.213.68"
-    },
-    {
-        "hostname": "india11026.discord.gg",
-        "ip": "35.207.202.73"
-    },
-    {
-        "hostname": "india11027.discord.gg",
-        "ip": "35.207.221.151"
+        "hostname": "india11022.discord.gg",
+        "ip": "35.207.227.131"
     },
     {
         "hostname": "india11028.discord.gg",
@@ -716,16 +692,16 @@
         "ip": "35.207.244.92"
     },
     {
+        "hostname": "india11033.discord.gg",
+        "ip": "35.207.235.131"
+    },
+    {
         "hostname": "india11034.discord.gg",
         "ip": "35.207.200.235"
     },
     {
         "hostname": "india11035.discord.gg",
         "ip": "35.207.220.223"
-    },
-    {
-        "hostname": "india11036.discord.gg",
-        "ip": "35.207.252.195"
     },
     {
         "hostname": "india11037.discord.gg",
@@ -756,20 +732,8 @@
         "ip": "35.207.206.108"
     },
     {
-        "hostname": "india11044.discord.gg",
-        "ip": "35.207.220.8"
-    },
-    {
-        "hostname": "japan13000.discord.gg",
-        "ip": "35.213.105.28"
-    },
-    {
         "hostname": "japan13001.discord.gg",
         "ip": "35.213.62.214"
-    },
-    {
-        "hostname": "japan13002.discord.gg",
-        "ip": "35.213.110.17"
     },
     {
         "hostname": "japan13003.discord.gg",
@@ -782,6 +746,14 @@
     {
         "hostname": "japan13005.discord.gg",
         "ip": "35.213.101.131"
+    },
+    {
+        "hostname": "japan13006.discord.gg",
+        "ip": "35.213.127.215"
+    },
+    {
+        "hostname": "japan13007.discord.gg",
+        "ip": "35.213.61.218"
     },
     {
         "hostname": "japan13008.discord.gg",
@@ -860,10 +832,6 @@
         "ip": "35.213.25.171"
     },
     {
-        "hostname": "japan13027.discord.gg",
-        "ip": "35.213.44.74"
-    },
-    {
         "hostname": "japan13028.discord.gg",
         "ip": "35.213.98.192"
     },
@@ -888,6 +856,10 @@
         "ip": "34.0.51.220"
     },
     {
+        "hostname": "santiago11004.discord.gg",
+        "ip": "34.0.60.99"
+    },
+    {
         "hostname": "santiago11005.discord.gg",
         "ip": "34.0.49.205"
     },
@@ -902,6 +874,10 @@
     {
         "hostname": "santiago11008.discord.gg",
         "ip": "34.0.48.38"
+    },
+    {
+        "hostname": "santiago11009.discord.gg",
+        "ip": "34.0.54.153"
     },
     {
         "hostname": "santiago11010.discord.gg",
@@ -926,10 +902,6 @@
     {
         "hostname": "santiago11016.discord.gg",
         "ip": "34.0.62.249"
-    },
-    {
-        "hostname": "santiago11017.discord.gg",
-        "ip": "34.0.63.11"
     },
     {
         "hostname": "santiago11018.discord.gg",
@@ -964,10 +936,6 @@
         "ip": "34.0.52.184"
     },
     {
-        "hostname": "santiago11026.discord.gg",
-        "ip": "34.0.59.83"
-    },
-    {
         "hostname": "santiago11027.discord.gg",
         "ip": "34.0.62.143"
     },
@@ -990,10 +958,6 @@
     {
         "hostname": "santiago11032.discord.gg",
         "ip": "34.0.48.90"
-    },
-    {
-        "hostname": "santiago11033.discord.gg",
-        "ip": "34.0.50.168"
     },
     {
         "hostname": "santiago11034.discord.gg",
@@ -1040,8 +1004,24 @@
         "ip": "35.216.27.55"
     },
     {
+        "hostname": "south-korea12006.discord.gg",
+        "ip": "35.216.45.103"
+    },
+    {
         "hostname": "south-korea12007.discord.gg",
         "ip": "35.216.15.80"
+    },
+    {
+        "hostname": "south-korea12008.discord.gg",
+        "ip": "35.216.24.87"
+    },
+    {
+        "hostname": "south-korea12009.discord.gg",
+        "ip": "35.216.25.211"
+    },
+    {
+        "hostname": "south-korea12010.discord.gg",
+        "ip": "35.216.23.33"
     },
     {
         "hostname": "south-korea12011.discord.gg",
@@ -1066,6 +1046,10 @@
     {
         "hostname": "south-korea12016.discord.gg",
         "ip": "35.216.62.146"
+    },
+    {
+        "hostname": "south-korea12017.discord.gg",
+        "ip": "35.216.108.89"
     },
     {
         "hostname": "south-korea12018.discord.gg",
@@ -1324,20 +1308,8 @@
         "ip": "35.216.26.145"
     },
     {
-        "hostname": "south-korea13028.discord.gg",
-        "ip": "35.216.101.8"
-    },
-    {
-        "hostname": "south-korea13029.discord.gg",
-        "ip": "35.216.15.201"
-    },
-    {
         "hostname": "south-korea13030.discord.gg",
         "ip": "35.216.62.31"
-    },
-    {
-        "hostname": "south-korea13031.discord.gg",
-        "ip": "35.216.11.127"
     },
     {
         "hostname": "south-korea13032.discord.gg",
@@ -1372,10 +1344,6 @@
         "ip": "35.216.101.185"
     },
     {
-        "hostname": "south-korea13040.discord.gg",
-        "ip": "35.216.40.139"
-    },
-    {
         "hostname": "south-korea13041.discord.gg",
         "ip": "35.216.26.168"
     },
@@ -1384,24 +1352,12 @@
         "ip": "35.216.92.39"
     },
     {
-        "hostname": "south-korea13043.discord.gg",
-        "ip": "35.216.101.87"
-    },
-    {
         "hostname": "south-korea13044.discord.gg",
         "ip": "35.216.124.159"
     },
     {
         "hostname": "south-korea13045.discord.gg",
         "ip": "35.216.15.158"
-    },
-    {
-        "hostname": "south-korea13046.discord.gg",
-        "ip": "35.216.120.231"
-    },
-    {
-        "hostname": "south-korea13047.discord.gg",
-        "ip": "35.216.39.177"
     },
     {
         "hostname": "south-korea13048.discord.gg",
@@ -1420,16 +1376,8 @@
         "ip": "35.216.97.166"
     },
     {
-        "hostname": "south-korea13052.discord.gg",
-        "ip": "35.216.63.112"
-    },
-    {
         "hostname": "south-korea13053.discord.gg",
         "ip": "35.216.28.162"
-    },
-    {
-        "hostname": "south-korea13054.discord.gg",
-        "ip": "35.216.6.47"
     },
     {
         "hostname": "south-korea13055.discord.gg",
@@ -1446,10 +1394,6 @@
     {
         "hostname": "south-korea13058.discord.gg",
         "ip": "35.216.93.125"
-    },
-    {
-        "hostname": "south-korea13059.discord.gg",
-        "ip": "35.216.51.153"
     },
     {
         "hostname": "south-korea13060.discord.gg",
@@ -1470,18 +1414,6 @@
     {
         "hostname": "south-korea13064.discord.gg",
         "ip": "35.216.2.23"
-    },
-    {
-        "hostname": "south-korea13065.discord.gg",
-        "ip": "35.216.99.2"
-    },
-    {
-        "hostname": "south-korea13066.discord.gg",
-        "ip": "35.216.2.30"
-    },
-    {
-        "hostname": "south-korea13067.discord.gg",
-        "ip": "35.216.26.221"
     },
     {
         "hostname": "south-korea13068.discord.gg",
@@ -1548,10 +1480,6 @@
         "ip": "35.216.23.2"
     },
     {
-        "hostname": "south-korea13084.discord.gg",
-        "ip": "35.216.85.134"
-    },
-    {
         "hostname": "south-korea13085.discord.gg",
         "ip": "35.216.1.2"
     },
@@ -1616,10 +1544,6 @@
         "ip": "35.216.20.230"
     },
     {
-        "hostname": "south-korea13101.discord.gg",
-        "ip": "35.216.57.33"
-    },
-    {
         "hostname": "south-korea13102.discord.gg",
         "ip": "35.216.76.173"
     },
@@ -1634,10 +1558,6 @@
     {
         "hostname": "south-korea13105.discord.gg",
         "ip": "35.216.69.12"
-    },
-    {
-        "hostname": "south-korea13106.discord.gg",
-        "ip": "35.216.23.160"
     },
     {
         "hostname": "south-korea13107.discord.gg",
@@ -1672,16 +1592,8 @@
         "ip": "35.215.85.252"
     },
     {
-        "hostname": "stage-scale10024.discord.gg",
-        "ip": "35.215.83.0"
-    },
-    {
         "hostname": "stage-scale10025.discord.gg",
         "ip": "35.215.66.109"
-    },
-    {
-        "hostname": "stage-scale10026.discord.gg",
-        "ip": "35.215.126.35"
     },
     {
         "hostname": "stage-scale10027.discord.gg",
@@ -1690,6 +1602,10 @@
     {
         "hostname": "stage-scale10028.discord.gg",
         "ip": "35.215.115.120"
+    },
+    {
+        "hostname": "stage-scale10029.discord.gg",
+        "ip": "34.4.29.239"
     },
     {
         "hostname": "tel-aviv12000.discord.gg",
@@ -1758,10 +1674,6 @@
     {
         "hostname": "tel-aviv12016.discord.gg",
         "ip": "34.0.66.119"
-    },
-    {
-        "hostname": "us-east911.discord.gg",
-        "ip": "172.65.202.19"
     },
     {
         "hostname": "us-south12000.discord.gg",
@@ -1856,6 +1768,14 @@
         "ip": "34.0.150.10"
     },
     {
+        "hostname": "us-south12023.discord.gg",
+        "ip": "34.0.146.226"
+    },
+    {
+        "hostname": "us-south12024.discord.gg",
+        "ip": "34.0.148.151"
+    },
+    {
         "hostname": "us-south12025.discord.gg",
         "ip": "34.0.156.214"
     },
@@ -1870,6 +1790,10 @@
     {
         "hostname": "us-south12028.discord.gg",
         "ip": "34.0.132.103"
+    },
+    {
+        "hostname": "us-south12029.discord.gg",
+        "ip": "34.0.148.239"
     },
     {
         "hostname": "us-south12030.discord.gg",
