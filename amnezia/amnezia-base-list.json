@@ -1,27 +1,27 @@
 [
     {
         "hostname": "canary.discord.com",
-        "ip": "162.159.138.232"
+        "ip": "162.159.137.232"
     },
     {
         "hostname": "cdn.discordapp.com",
-        "ip": "162.159.129.233"
+        "ip": "162.159.133.233"
     },
     {
         "hostname": "dis.gd",
-        "ip": "104.18.37.76"
+        "ip": "172.64.150.180"
     },
     {
         "hostname": "discord-attachments-uploads-prd.storage.googleapis.com",
-        "ip": "142.251.40.123"
+        "ip": "142.250.107.207"
     },
     {
         "hostname": "discord.co",
-        "ip": "104.17.51.93"
+        "ip": "104.17.117.93"
     },
     {
         "hostname": "discord.com",
-        "ip": "162.159.128.233"
+        "ip": "162.159.138.232"
     },
     {
         "hostname": "discord.design",
@@ -29,15 +29,15 @@
     },
     {
         "hostname": "discord.dev",
-        "ip": "104.21.72.221"
+        "ip": "172.67.155.163"
     },
     {
         "hostname": "discord.gg",
-        "ip": "162.159.133.234"
+        "ip": "162.159.136.234"
     },
     {
         "hostname": "discord.gift",
-        "ip": "172.67.222.182"
+        "ip": "104.21.25.51"
     },
     {
         "hostname": "discord.gifts",
@@ -45,11 +45,11 @@
     },
     {
         "hostname": "discord.media",
-        "ip": "162.159.128.235"
+        "ip": "162.159.129.235"
     },
     {
         "hostname": "discord.new",
-        "ip": "104.21.89.187"
+        "ip": "172.67.191.5"
     },
     {
         "hostname": "discord.store",
@@ -61,11 +61,11 @@
     },
     {
         "hostname": "discordapp.com",
-        "ip": "162.159.129.233"
+        "ip": "162.159.134.233"
     },
     {
         "hostname": "discordcdn.com",
-        "ip": "162.159.129.234"
+        "ip": "162.159.138.233"
     },
     {
         "hostname": "discordmerch.com",
@@ -73,7 +73,7 @@
     },
     {
         "hostname": "discordsays.com",
-        "ip": "104.18.34.249"
+        "ip": "172.64.153.7"
     },
     {
         "hostname": "discordsez.com",
@@ -81,23 +81,23 @@
     },
     {
         "hostname": "discordstatus.com",
-        "ip": "65.8.20.105"
+        "ip": "3.165.160.73"
     },
     {
         "hostname": "images-ext-1.discordapp.net",
-        "ip": "162.159.128.232"
-    },
-    {
-        "hostname": "images-ext-2.discordapp.net",
-        "ip": "162.159.133.232"
-    },
-    {
-        "hostname": "media.discordapp.net",
         "ip": "162.159.130.232"
     },
     {
+        "hostname": "images-ext-2.discordapp.net",
+        "ip": "162.159.128.232"
+    },
+    {
+        "hostname": "media.discordapp.net",
+        "ip": "162.159.133.232"
+    },
+    {
         "hostname": "ptb.discord.com",
-        "ip": "162.159.138.232"
+        "ip": "162.159.136.232"
     },
     {
         "hostname": "stable.dl2.discordapp.net",
